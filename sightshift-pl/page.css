@@ -21979,4 +21979,10 @@ font-size: 95%;}:where(#sightshift-root) .leading-tight{
   border-radius: 50% !important; overflow: hidden !important;
 }:where(#sightshift-root) main.main-content{ max-width: 820px; margin-left: auto; margin-right: auto; }:where(#sightshift-root) .shopify-section{ max-width: 820px; margin-left: auto; margin-right: auto; }:where(#sightshift-root) #shopify-section-template--30699085791571__section_list_butttons_DekcmM .grid__container{ max-width: 600px; margin-left: auto; margin-right: auto; }:where(#sightshift-root) #shopify-section-template--30699085791571__section_list_butttons_DekcmM.sticky-active{
   width: min(100%, 820px) !important; left: 0 !important; right: 0 !important; margin: 0 auto !important;
-}:where(#sightshift-root) .TP-heading{ width: 100% !important; }:where(#sightshift-root) .ssp-ticker{ max-width: 820px; margin-left: auto; margin-right: auto; margin-bottom: 16px; }:where(#sightshift-root) .ssp-buyhero{ margin-top: 4px; }
+}:where(#sightshift-root) #shopify-section-template--30699085791571__section_list_butttons_DekcmM section, :where(#sightshift-root) #shopify-section-template--30699085791571__section_list_butttons_DekcmM .wrapper--full-padded{
+  width: 100% !important; max-width: 100% !important; box-sizing: border-box !important;
+}:where(#sightshift-root) #shopify-section-template--30699085791571__section_list_butttons_DekcmM .carousel--mobile{
+  padding-left: 0 !important; padding-right: 0 !important;
+}:where(#sightshift-root) #shopify-section-template--30699085791571__section_list_butttons_DekcmM .list-collections__item{
+  margin-left: auto !important; margin-right: auto !important;
+}:where(#sightshift-root) .wrapper--full-padded, :where(#sightshift-root) .wrapper--full{ max-width: 100% !important; box-sizing: border-box !important; }:where(#sightshift-root) .TP-heading{ width: 100% !important; }:where(#sightshift-root) .ssp-ticker{ max-width: 820px; margin-left: auto; margin-right: auto; margin-bottom: 16px; }:where(#sightshift-root) .ssp-buyhero{ margin-top: 4px; }
