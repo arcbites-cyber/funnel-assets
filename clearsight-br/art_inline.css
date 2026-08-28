@@ -38,98 +38,97 @@
 #clearsight-art-root .is38{font-family: Montserrat; line-height: 1.5; margin: 10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
 #clearsight-art-root .is39{color: rgb(48, 48, 48);}
 #clearsight-art-root .is40{line-height: 1.3; color: rgb(0, 0, 0); font-family: Montserrat; margin: 10px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is41{font-size: inherit; color: rgb(74, 144, 226);}
-#clearsight-art-root .is42{color: rgb(74, 144, 226);}
-#clearsight-art-root .is43{color: rgb(0, 0, 0); font-family: Montserrat; border-width: 2px; border-style: solid; border-color: rgb(155, 155, 155); line-height: 1.5; margin: 10px 0px 0px; padding: 20px; background-color: rgb(240, 240, 240); text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is44{background-color: rgba(0, 0, 0, 0);}
-#clearsight-art-root .is45{background-color: rgba(0, 0, 0, 0); color: rgb(48, 48, 48);}
-#clearsight-art-root .is46{font-size: inherit; color: inherit;}
-#clearsight-art-root .is47{color: rgb(2, 2, 2); font-family: Montserrat; border-width: 0px; border-style: solid; border-radius: 10px; line-height: 1.5; margin: 15px 0px 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is48{color: rgb(37, 42, 50);}
-#clearsight-art-root .is49{background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 18px;}
-#clearsight-art-root .is50{line-height: 1.2; color: rgb(0, 0, 0); font-family: Montserrat; margin: 10px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is51{border-width: 0px; border-style: solid; border-radius: 10px; object-fit: scale-down;}
-#clearsight-art-root .is52{color: rgb(0, 0, 0); font-family: Montserrat; border-width: 0px; border-style: solid; border-radius: 10px; line-height: 1.5; margin: 15px 0px 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is53{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 10px 0px 0px; padding: 15px 0px; background-color: rgb(1, 158, 63);}
-#clearsight-art-root .is54{font-family: Montserrat; font-weight: bold; font-size: 17px; text-align: center;}
-#clearsight-art-root .is55{line-height: 1.3; color: rgb(0, 0, 0); font-family: Montserrat; margin: 20px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is56{font-size: 18px;}
-#clearsight-art-root .is57{color: rgb(0, 0, 0); font-size: 18px;}
-#clearsight-art-root .is58{color: rgb(1, 1, 1); font-family: Montserrat; line-height: 1.5; margin: 10px 0px 0px; padding: 10px 10px 10px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is59{font-size: inherit;}
-#clearsight-art-root .is60{line-height: 1.5; color: rgb(74, 74, 74); font-family: Montserrat; margin: 10px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is61{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.5; margin: 15px 0px 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is62{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 20px 0px 0px; padding: 15px 0px; background-color: rgb(1, 158, 63);}
-#clearsight-art-root .is63{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 30px 0px 0px; padding: 20px 40px; background-color: rgb(1, 158, 63);}
-#clearsight-art-root .is64{font-family: Montserrat; font-weight: bold; font-size: 30px; text-align: center;}
-#clearsight-art-root .is65{line-height: 1.2; color: rgb(0, 0, 0); font-family: Montserrat; margin: 20px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is66{margin: 10px 0px 0px; padding: 0px; background-color: rgb(254, 248, 183);}
-#clearsight-art-root .is67{margin: 10px;}
-#clearsight-art-root .is68{object-fit: scale-down;}
-#clearsight-art-root .is69{margin: 50px 0px 0px;}
-#clearsight-art-root .is70{margin: 0px; padding: 15px 25px 32px; background-color: rgb(254, 251, 217);}
-#clearsight-art-root .is71{font-family: Montserrat; font-size: 21px; color: #333333; font-weight: bold;}
-#clearsight-art-root .is72{font-family: Montserrat; font-size: 15px; color: #333333; font-weight: bold;}
-#clearsight-art-root .is73{margin: 0px; padding: 12px 0px;}
-#clearsight-art-root .is74{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.5; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is75{color: rgb(255, 0, 0); font-family: Montserrat; line-height: 1.5; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is76{margin: 0px; padding: 15px 25px 0px; background-color: rgb(254, 248, 183);}
-#clearsight-art-root .is77{font-family: Montserrat; line-height: 1.2; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is78{color: rgb(47, 47, 47); font-family: Montserrat; line-height: 1.2; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is79{color: rgb(47, 47, 47); font-family: Montserrat; line-height: 1; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is80{font-size: 16px;}
-#clearsight-art-root .is81{font-family: Montserrat; line-height: 1; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is82{margin: 0px; padding: 15px 10px 0px; background-color: rgb(254, 248, 183);}
-#clearsight-art-root .is83{margin: 15px 0px 0px;}
-#clearsight-art-root .is84{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.2; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is85{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is86{margin: 0px; padding: 0px 10px 32px; background-color: rgb(254, 248, 183);}
-#clearsight-art-root .is87{width: 25%;}
-#clearsight-art-root .is88{position: sticky; z-index: 10; top: 0px;}
-#clearsight-art-root .is89{border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51); margin: 20px 0px 0px 10px; padding: 10px; background-color: rgba(0, 0, 0, 0);}
-#clearsight-art-root .is90{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.1; margin: 5px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is91{margin: 10px 0px 15px;}
-#clearsight-art-root .is92{color: rgb(255, 255, 255);}
-#clearsight-art-root .is93{margin: 30px 0px 0px; padding: 0px; background-color: white;}
-#clearsight-art-root .is94{color: rgb(51, 51, 51); font-family: Montserrat; line-height: 1; margin: 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is95{font-size: 20px;}
-#clearsight-art-root .is96{margin: 1px 0px 0px; padding: 12px 10px; background-color: white;}
-#clearsight-art-root .is97{margin: 0px; padding: 10px 0px;}
-#clearsight-art-root .is98{color: rgb(51, 51, 51); font-family: Montserrat; line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is99{color: rgb(187, 187, 187); line-height: 1; margin: 5px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is100{margin: 5px 0px 0px; padding: 0px;}
-#clearsight-art-root .is101{color: rgb(0, 153, 38); font-family: Montserrat; line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is102{margin: 5px 0px 0px;}
-#clearsight-art-root .is103{line-height: 1; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is104{color: rgb(0, 0, 0); line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is105{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is106{margin: 60px 0px 0px; padding: 10px; background-color: rgb(242, 242, 242);}
-#clearsight-art-root .is107{font-family: Montserrat; line-height: 1; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is108{border-width: 0px; border-style: solid; border-color: transparent; color: rgb(48, 48, 48); font-size: 14px; text-align: initial; margin: 0px; padding: 0px 0px 40px; background-size: auto; background-repeat: no-repeat;}
-#clearsight-art-root .is109{font-family: Montserrat; line-height: 1; margin: 10px 10px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is110{color: rgb(33, 37, 41);}
-#clearsight-art-root .is111{margin: 0px 10px;}
-#clearsight-art-root .is112{background-color: rgb(255, 255, 255); color: rgb(37, 42, 50); font-size: 14px; text-align: left; font-weight: normal; font-style: normal;}
-#clearsight-art-root .is113{margin: 10px 10px 0px; padding: 0px;}
-#clearsight-art-root .is114{object-fit: cover;}
-#clearsight-art-root .is115{color: rgb(59, 89, 152); font-family: "Open Sans"; line-height: 1; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is116{color: rgb(0, 0, 0); font-family: Roboto; line-height: 1; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is117{font-family: Roboto; line-height: 1; margin: 0px; padding: 0px 0px 0px 10px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is118{color: rgb(59, 89, 152);}
-#clearsight-art-root .is119{margin: -10px 0px 0px;}
-#clearsight-art-root .is120{color: rgb(127, 127, 127); font-family: Roboto; line-height: 1; margin: 0px; padding: 0px 10px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is121{border-top: none rgb(195, 189, 189); border-left: 1px solid rgb(195, 189, 189); border-right: none rgb(195, 189, 189); border-bottom: none rgb(195, 189, 189); margin: 20px 10px 0px 70px; padding: 0px;}
-#clearsight-art-root .is122{color: rgb(0, 0, 0); font-family: Roboto; line-height: 1.2; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is123{margin: 20px 10px 0px; padding: 0px;}
-#clearsight-art-root .is124{color: rgb(127, 127, 127);}
-#clearsight-art-root .is125{color: rgb(0, 0, 0); font-family: Roboto; line-height: 1.3; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
-#clearsight-art-root .is126{border-top: none rgb(233, 233, 233); border-left: 1px solid rgb(233, 233, 233); border-right: none rgb(233, 233, 233); border-bottom: none rgb(233, 233, 233); margin: 20px 10px 0px 50px; padding: 0px;}
-#clearsight-art-root .is127{border-top: none rgb(233, 233, 233); border-left: 2px solid rgb(233, 233, 233); border-right: none rgb(233, 233, 233); border-bottom: none rgb(233, 233, 233); margin: 20px 10px 0px 50px; padding: 0px;}
-#clearsight-art-root .is128{padding: 13px 10px; position: sticky; z-index: 10; bottom: 0px; background-color: rgb(255, 255, 255); background-size: auto; background-repeat: no-repeat;}
-#clearsight-art-root .is129{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 0px; padding: 15px 70px; background-color: rgb(1, 158, 63);}
-#clearsight-art-root .is130{font-family: Montserrat; font-weight: bold; font-size: 28px; text-align: center;}
-#clearsight-art-root .is131{padding: 15px 10px; position: sticky; z-index: 10; bottom: 0px; background-color: rgb(255, 255, 255); background-size: auto; background-repeat: no-repeat;}
-#clearsight-art-root .is132{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 0px; padding: 15px 0px; background-color: rgb(1, 158, 63);}
+#clearsight-art-root .is41{font-size: inherit; color: rgb(74, 144, 226); font-weight: bold; text-decoration: underline;}
+#clearsight-art-root .is42{color: rgb(0, 0, 0); font-family: Montserrat; border-width: 2px; border-style: solid; border-color: rgb(155, 155, 155); line-height: 1.5; margin: 10px 0px 0px; padding: 20px; background-color: rgb(240, 240, 240); text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is43{background-color: rgba(0, 0, 0, 0);}
+#clearsight-art-root .is44{background-color: rgba(0, 0, 0, 0); color: rgb(48, 48, 48);}
+#clearsight-art-root .is45{font-size: inherit; color: inherit;}
+#clearsight-art-root .is46{color: rgb(2, 2, 2); font-family: Montserrat; border-width: 0px; border-style: solid; border-radius: 10px; line-height: 1.5; margin: 15px 0px 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is47{color: rgb(37, 42, 50);}
+#clearsight-art-root .is48{background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-size: 18px;}
+#clearsight-art-root .is49{line-height: 1.2; color: rgb(0, 0, 0); font-family: Montserrat; margin: 10px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is50{border-width: 0px; border-style: solid; border-radius: 10px; object-fit: scale-down;}
+#clearsight-art-root .is51{color: rgb(0, 0, 0); font-family: Montserrat; border-width: 0px; border-style: solid; border-radius: 10px; line-height: 1.5; margin: 15px 0px 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is52{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 10px 0px 0px; padding: 15px 0px; background-color: rgb(1, 158, 63);}
+#clearsight-art-root .is53{font-family: Montserrat; font-weight: bold; font-size: 17px; text-align: center;}
+#clearsight-art-root .is54{line-height: 1.3; color: rgb(0, 0, 0); font-family: Montserrat; margin: 20px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is55{font-size: 18px;}
+#clearsight-art-root .is56{color: rgb(0, 0, 0); font-size: 18px;}
+#clearsight-art-root .is57{color: rgb(1, 1, 1); font-family: Montserrat; line-height: 1.5; margin: 10px 0px 0px; padding: 10px 10px 10px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is58{font-size: inherit;}
+#clearsight-art-root .is59{line-height: 1.5; color: rgb(74, 74, 74); font-family: Montserrat; margin: 10px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is60{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.5; margin: 15px 0px 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is61{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 20px 0px 0px; padding: 15px 0px; background-color: rgb(1, 158, 63);}
+#clearsight-art-root .is62{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 30px 0px 0px; padding: 20px 40px; background-color: rgb(1, 158, 63);}
+#clearsight-art-root .is63{font-family: Montserrat; font-weight: bold; font-size: 30px; text-align: center;}
+#clearsight-art-root .is64{line-height: 1.2; color: rgb(0, 0, 0); font-family: Montserrat; margin: 20px 0px 0px; padding: 5px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is65{margin: 10px 0px 0px; padding: 0px; background-color: rgb(254, 248, 183);}
+#clearsight-art-root .is66{margin: 10px;}
+#clearsight-art-root .is67{object-fit: scale-down;}
+#clearsight-art-root .is68{margin: 50px 0px 0px;}
+#clearsight-art-root .is69{margin: 0px; padding: 15px 25px 32px; background-color: rgb(254, 251, 217);}
+#clearsight-art-root .is70{font-family: Montserrat; font-size: 21px; color: #333333; font-weight: bold;}
+#clearsight-art-root .is71{font-family: Montserrat; font-size: 15px; color: #333333; font-weight: bold;}
+#clearsight-art-root .is72{margin: 0px; padding: 12px 0px;}
+#clearsight-art-root .is73{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.5; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is74{color: rgb(255, 0, 0); font-family: Montserrat; line-height: 1.5; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is75{margin: 0px; padding: 15px 25px 0px; background-color: rgb(254, 248, 183);}
+#clearsight-art-root .is76{font-family: Montserrat; line-height: 1.2; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is77{color: rgb(47, 47, 47); font-family: Montserrat; line-height: 1.2; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is78{color: rgb(47, 47, 47); font-family: Montserrat; line-height: 1; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is79{font-size: 16px;}
+#clearsight-art-root .is80{font-family: Montserrat; line-height: 1; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is81{margin: 0px; padding: 15px 10px 0px; background-color: rgb(254, 248, 183);}
+#clearsight-art-root .is82{margin: 15px 0px 0px;}
+#clearsight-art-root .is83{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.2; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is84{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1; margin: 15px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is85{margin: 0px; padding: 0px 10px 32px; background-color: rgb(254, 248, 183);}
+#clearsight-art-root .is86{width: 25%;}
+#clearsight-art-root .is87{position: sticky; z-index: 10; top: 0px;}
+#clearsight-art-root .is88{border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51); margin: 20px 0px 0px 10px; padding: 10px; background-color: rgba(0, 0, 0, 0);}
+#clearsight-art-root .is89{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1.1; margin: 5px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is90{margin: 10px 0px 15px;}
+#clearsight-art-root .is91{color: rgb(255, 255, 255);}
+#clearsight-art-root .is92{margin: 30px 0px 0px; padding: 0px; background-color: white;}
+#clearsight-art-root .is93{color: rgb(51, 51, 51); font-family: Montserrat; line-height: 1; margin: 0px; padding: 10px 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is94{font-size: 20px;}
+#clearsight-art-root .is95{margin: 1px 0px 0px; padding: 12px 10px; background-color: white;}
+#clearsight-art-root .is96{margin: 0px; padding: 10px 0px;}
+#clearsight-art-root .is97{color: rgb(51, 51, 51); font-family: Montserrat; line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is98{color: rgb(187, 187, 187); line-height: 1; margin: 5px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is99{margin: 5px 0px 0px; padding: 0px;}
+#clearsight-art-root .is100{color: rgb(0, 153, 38); font-family: Montserrat; line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is101{margin: 5px 0px 0px;}
+#clearsight-art-root .is102{line-height: 1; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is103{color: rgb(0, 0, 0); line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is104{color: rgb(0, 0, 0); font-family: Montserrat; line-height: 1; margin: 10px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is105{margin: 60px 0px 0px; padding: 10px; background-color: rgb(242, 242, 242);}
+#clearsight-art-root .is106{font-family: Montserrat; line-height: 1; margin: 20px 0px 0px; padding: 0px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is107{border-width: 0px; border-style: solid; border-color: transparent; color: rgb(48, 48, 48); font-size: 14px; text-align: initial; margin: 0px; padding: 0px 0px 40px; background-size: auto; background-repeat: no-repeat;}
+#clearsight-art-root .is108{font-family: Montserrat; line-height: 1; margin: 10px 10px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is109{color: rgb(33, 37, 41);}
+#clearsight-art-root .is110{margin: 0px 10px;}
+#clearsight-art-root .is111{background-color: rgb(255, 255, 255); color: rgb(37, 42, 50); font-size: 14px; text-align: left; font-weight: normal; font-style: normal;}
+#clearsight-art-root .is112{margin: 10px 10px 0px; padding: 0px;}
+#clearsight-art-root .is113{object-fit: cover;}
+#clearsight-art-root .is114{color: rgb(59, 89, 152); font-family: "Open Sans"; line-height: 1; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is115{color: rgb(0, 0, 0); font-family: Roboto; line-height: 1; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is116{font-family: Roboto; line-height: 1; margin: 0px; padding: 0px 0px 0px 10px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is117{color: rgb(59, 89, 152);}
+#clearsight-art-root .is118{margin: -10px 0px 0px;}
+#clearsight-art-root .is119{color: rgb(127, 127, 127); font-family: Roboto; line-height: 1; margin: 0px; padding: 0px 10px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is120{border-top: none rgb(195, 189, 189); border-left: 1px solid rgb(195, 189, 189); border-right: none rgb(195, 189, 189); border-bottom: none rgb(195, 189, 189); margin: 20px 10px 0px 70px; padding: 0px;}
+#clearsight-art-root .is121{color: rgb(0, 0, 0); font-family: Roboto; line-height: 1.2; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is122{margin: 20px 10px 0px; padding: 0px;}
+#clearsight-art-root .is123{color: rgb(127, 127, 127);}
+#clearsight-art-root .is124{color: rgb(0, 0, 0); font-family: Roboto; line-height: 1.3; margin: -10px 0px 0px; padding: 10px; text-shadow: transparent 0px 0px 0px;}
+#clearsight-art-root .is125{border-top: none rgb(233, 233, 233); border-left: 1px solid rgb(233, 233, 233); border-right: none rgb(233, 233, 233); border-bottom: none rgb(233, 233, 233); margin: 20px 10px 0px 50px; padding: 0px;}
+#clearsight-art-root .is126{border-top: none rgb(233, 233, 233); border-left: 2px solid rgb(233, 233, 233); border-right: none rgb(233, 233, 233); border-bottom: none rgb(233, 233, 233); margin: 20px 10px 0px 50px; padding: 0px;}
+#clearsight-art-root .is127{padding: 13px 10px; position: sticky; z-index: 10; bottom: 0px; background-color: rgb(255, 255, 255); background-size: auto; background-repeat: no-repeat;}
+#clearsight-art-root .is128{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 0px; padding: 15px 70px; background-color: rgb(1, 158, 63);}
+#clearsight-art-root .is129{font-family: Montserrat; font-weight: bold; font-size: 28px; text-align: center;}
+#clearsight-art-root .is130{padding: 15px 10px; position: sticky; z-index: 10; bottom: 0px; background-color: rgb(255, 255, 255); background-size: auto; background-repeat: no-repeat;}
+#clearsight-art-root .is131{border-top: none rgb(103, 184, 103); border-left: none rgb(103, 184, 103); border-right: none rgb(103, 184, 103); border-bottom: 5px solid rgb(103, 184, 103); border-radius: 4px; margin: 0px; padding: 15px 0px; background-color: rgb(1, 158, 63);}
 
 /* FB comment meta rows: source page crushes the box widths; PT copy is longer than EN. Content-sized flex, tight padding, fixed 13px font so indented replies still fit 390px. */
 #clearsight-art-root .el-521813,#clearsight-art-root .el-736449,#clearsight-art-root .el-148005,#clearsight-art-root .el-787240,#clearsight-art-root .el-72048,#clearsight-art-root .el-233088,#clearsight-art-root .el-706888,#clearsight-art-root .el-718221,#clearsight-art-root .el-300156,#clearsight-art-root .el-243622,#clearsight-art-root .el-810110,#clearsight-art-root .el-16570,#clearsight-art-root .el-681576,#clearsight-art-root .el-491849,#clearsight-art-root .el-793509,#clearsight-art-root .el-545748,#clearsight-art-root .el-428458,#clearsight-art-root .el-876718,#clearsight-art-root .el-272098,#clearsight-art-root .el-424118,#clearsight-art-root .el-320893,#clearsight-art-root .el-692750,#clearsight-art-root .el-969080,#clearsight-art-root .el-366877,#clearsight-art-root .el-188014,#clearsight-art-root .el-106983,#clearsight-art-root .el-471866,#clearsight-art-root .el-345778,#clearsight-art-root .el-448505,#clearsight-art-root .el-295024,#clearsight-art-root .el-512961,#clearsight-art-root .el-608929,#clearsight-art-root .el-30776,#clearsight-art-root .el-660073,#clearsight-art-root .el-370621,#clearsight-art-root .el-163880,#clearsight-art-root .el-225488,#clearsight-art-root .el-195791,#clearsight-art-root .el-852227,#clearsight-art-root .el-443542,#clearsight-art-root .el-942868,#clearsight-art-root .el-754164,#clearsight-art-root .el-930625,#clearsight-art-root .el-139306,#clearsight-art-root .el-365957,#clearsight-art-root .el-218076{display:flex;align-items:center;flex-wrap:nowrap;justify-content:flex-start;column-gap:2px;}
