@@ -1,0 +1,96 @@
+/* "Widziane w mediach" scrolling logo strip (blocks/marquee_asseen_pl.html,
+   first shipped on EnergyCut PL), re-rooted to the ClearSight PL lander.
+   Replaces the baked 500x132 "Pisali o nas" bar (a23.png), whose three logos
+   were fixed-width and shrank to nothing on a phone.
+   Markup lives in the block as .ecm-wrap inside a custom element. */
+
+:where(#clearsight-pl-sp-root) .ecm-wrap{
+  /* These two interact: the duration covers ONE group, so a taller logo makes
+     the group wider and the same duration moves more pixels. Enlarging the
+     logo speeds the strip up on its own. */
+  --ecm-speed: 16s;        /* lower = faster */
+  --ecm-gap: 70px;         /* space between logos */
+  --ecm-h: 46px;           /* logo height */
+  font-family: inherit;
+  position: relative;
+  width: 100%;
+  padding: 18px 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+:where(#clearsight-pl-sp-root) .ecm-title{
+  text-align: center;
+  margin: 0 0 15px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: #6B7580;
+}
+
+/* Feathered edges -- logos drift in and out instead of being cut off hard
+   against the container edge. */
+:where(#clearsight-pl-sp-root) .ecm-viewport{
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+
+:where(#clearsight-pl-sp-root) .ecm-track{
+  display: flex;
+  width: max-content;
+  animation: ecm-scroll var(--ecm-speed) linear infinite;
+}
+
+/* Shift by half the track: at that instant group 2 sits exactly where group 1
+   started, so the loop point is invisible. */
+@keyframes ecm-scroll{
+  from{ transform: translate3d(0,0,0); }
+  to  { transform: translate3d(-50%,0,0); }
+}
+
+:where(#clearsight-pl-sp-root) .ecm-set{
+  display: flex;
+  align-items: center;
+  gap: var(--ecm-gap);
+  padding-right: var(--ecm-gap);
+  flex: 0 0 auto;
+}
+
+:where(#clearsight-pl-sp-root) .ecm-set a{
+  display: block;
+  line-height: 0;
+  text-decoration: none;
+}
+
+:where(#clearsight-pl-sp-root) .ecm-set img{
+  height: var(--ecm-h);
+  width: auto;
+  /* Generous cap: wide mastheads ("Gazeta Wyborcza") run ~230px at this
+     height. A tighter max-width would clip their height instead and flatten
+     them to the same optical weight as the narrow marks -- the same mistake
+     as the square 160x160 crop in the original image URLs. */
+  max-width: 260px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Funnelish's core.min.css sets `.section img { width:100% }` and the block's
+   own theme rounds image corners; neither may touch the strip. */
+:where(#clearsight-pl-sp-root) .ecm-wrap img{
+  border-radius: 0;
+  box-shadow: none;
+}
+
+@media (max-width: 480px){
+  :where(#clearsight-pl-sp-root) .ecm-wrap{ --ecm-gap: 44px; --ecm-h: 34px; padding: 15px 0; }
+  :where(#clearsight-pl-sp-root) .ecm-title{ font-size: 13px; margin-bottom: 12px; }
+  :where(#clearsight-pl-sp-root) .ecm-set img{ max-width: 200px; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  :where(#clearsight-pl-sp-root) .ecm-track{ animation: none; justify-content: center; width: 100%; }
+  :where(#clearsight-pl-sp-root) .ecm-set:nth-child(2){ display: none; }
+  :where(#clearsight-pl-sp-root) .ecm-set{ flex-wrap: wrap; justify-content: center; }
+  :where(#clearsight-pl-sp-root) .ecm-viewport{ -webkit-mask-image: none; mask-image: none; }
+}
