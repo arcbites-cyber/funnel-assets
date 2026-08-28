@@ -1,0 +1,105 @@
+/* NeckNova-style single FB review (ported from necknova-br/lander.css,
+   re-rooted to the ClearSight lander). Markup lives in the block as
+   .fb-review inside a custom element. */
+:where(#clearsight-pl-sp-root) .fb-review{
+  max-width: 460px;
+  margin: 0 auto 15px;
+  background: #f0f2f5;
+  border-radius: 12px;
+  padding: 12px 14px 8px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  text-align: left;
+}
+:where(#clearsight-pl-sp-root) .fb-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+:where(#clearsight-pl-sp-root) .fb-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+:where(#clearsight-pl-sp-root) .fb-name{
+  font-weight: 600;
+  font-size: 15px;
+  color: #515B9A;
+  margin-bottom: 2px;
+}
+:where(#clearsight-pl-sp-root) .fb-verified{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #6C7AA8;
+  font-weight: 500;
+  line-height: 1.1;
+}
+:where(#clearsight-pl-sp-root) .fb-verified img{
+  width: 20px;
+  height: 20px;
+  margin-top: -1px;
+}
+:where(#clearsight-pl-sp-root) .fb-comment{
+  font-size: 15px;
+  color: #1c1e21;
+  line-height: 1.45;
+  margin-bottom: 6px;
+}
+:where(#clearsight-pl-sp-root) .fb-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+:where(#clearsight-pl-sp-root) .fb-actions{
+  font-size: 13px;
+  color: #515B9A;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+:where(#clearsight-pl-sp-root) .fb-actions .time{
+  color: #8a8d91;
+}
+:where(#clearsight-pl-sp-root) .fb-reactions{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 20px;
+  padding: 2px 6px 2px 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+:where(#clearsight-pl-sp-root) .fb-reactions img{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-left: -3px;
+  box-shadow: 0 0 0 1.5px #f0f2f5;
+}
+:where(#clearsight-pl-sp-root) .fb-reaction-count{
+  font-size: 13px;
+  color: #65676b;
+  margin-left: 4px;
+}
+@media (max-width: 480px){
+  :where(#clearsight-pl-sp-root) .fb-review{
+    padding: 10px 12px 8px;
+    border-radius: 10px;
+    margin: 0 10px 15px;
+  }
+  :where(#clearsight-pl-sp-root) .fb-avatar{
+    width: 36px;
+    height: 36px;
+  }
+  :where(#clearsight-pl-sp-root) .fb-name{
+    font-size: 14px;
+  }
+  :where(#clearsight-pl-sp-root) .fb-comment{
+    font-size: 14px;
+  }
+}
