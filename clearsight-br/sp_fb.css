@@ -90,6 +90,7 @@
   :where(#clearsight-sp-root) .fb-review{
     padding: 10px 12px 8px;
     border-radius: 10px;
+    margin: 0 10px 15px;
   }
   :where(#clearsight-sp-root) .fb-avatar{
     width: 36px;
