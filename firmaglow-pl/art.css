@@ -26,24 +26,87 @@
     box-shadow: 
       0 6px 16px rgba(0, 0, 0, 0.25),
       0 12px 32px rgba(0, 0, 0, 0.2);
-  }}:where(#firmaglow-pl-art-root) .main-1240606{ color:#D5E5FF;font-family:Roboto;font-size:14px;font-weight:400;font-style:normal;padding:0px 0px 0px 0px;background-color:#fff;background-repeat:no-repeat; }:where(#firmaglow-pl-art-root) .section_wrapper_819826 .section_row{ max-width:1170px; }:where(#firmaglow-pl-art-root) .section_wrapper_819826{ width:100%; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .section_wrapper_819826{ width:100%; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .section_wrapper_819826{ width:100%; }}@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .section_wrapper_819826 .section_row{ max-width:1170px; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .section_wrapper_819826 .section_row{ max-width:1170px; }}:where(#firmaglow-pl-art-root) .el-819826{ display:inherit;background-color:#C42E11; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-819826{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-819826{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ width:calc(100% - 0px); }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ width:calc(100% - 0px); }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ width:calc(100% - 0px); }}:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ display:inherit;color:#303030;font-size:14px;text-align:initial;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background-color:#304AA300;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ flex-direction: row; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ display:inherit; }:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ flex-direction: row; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ display:inherit; }:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row{ flex-direction: column; }:where(#firmaglow-pl-art-root) .el-819826 .el-455401.section_row  > .row-column{
-                              width: 100% !important;
-                          }}:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 20px 10px 20px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container{ align-items:center; }:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container{ flex-direction: row; }:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container  > .container-box:nth-child(1){
-      width: unset;
-						    min-width: 0;
-						    max-width: unset;
-      order: 0;
-    }:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container  > .container-box:nth-child(2){
-      width: 50%;
-						    min-width: 50%;
-						    max-width: 50%;
-      order: 0;
-    }:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container  > .container-box:nth-child(3){
-      width: unset;
-						    min-width: 0;
-						    max-width: unset;
-      order: 0;
-    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-455401 .el-520206.container{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-520206 .el-920375{ display:inherit;margin:0px 0px 0px 0px; }:where(#firmaglow-pl-art-root) .el-520206 .el-920375{ align-items:flex-start; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-520206 .el-920375{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-520206 .el-920375{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-520206 .el-920375 img{ box-shadow:none;object-fit:scale-down;max-width:50px; }@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-520206 .el-920375 img{ max-width:40px; }}:where(#firmaglow-pl-art-root) .el-520206 .el-920375 img{ width:100%;height:auto; }:where(#firmaglow-pl-art-root) .el-520206 .el-200900{ display:inherit;margin:0px 0px 0px 0px; }:where(#firmaglow-pl-art-root) .el-520206 .el-200900{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-520206 .el-200900{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-520206 .el-200900{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-520206 .el-200900 img{ box-shadow:none;object-fit:scale-down; }:where(#firmaglow-pl-art-root) .el-520206 .el-200900 img{ width:100%;height:50px; }:where(#firmaglow-pl-art-root) .el-520206 .el-392486{ display:inherit;margin:0px 0px 0px 0px; }:where(#firmaglow-pl-art-root) .el-520206 .el-392486{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-520206 .el-392486{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-520206 .el-392486{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-520206 .el-392486 img{ box-shadow:none;object-fit:scale-down;max-width:50px; }@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-520206 .el-392486 img{ max-width:40px; }}:where(#firmaglow-pl-art-root) .el-520206 .el-392486 img{ width:100%;height:auto; }:where(#firmaglow-pl-art-root) .section_wrapper_950693 .section_row{ max-width:1170px; }:where(#firmaglow-pl-art-root) .section_wrapper_950693{ width:100%; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .section_wrapper_950693{ width:100%; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .section_wrapper_950693{ width:100%; }}@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .section_wrapper_950693 .section_row{ max-width:1170px; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .section_wrapper_950693 .section_row{ max-width:1170px; }}:where(#firmaglow-pl-art-root) .el-950693{ display:inherit;margin:0px 0px 30px 0px;background-repeat:no-repeat; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-950693{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-950693{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ width:calc(100% - 0px); }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ width:calc(100% - 0px); }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ width:calc(100% - 0px); }}:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ display:inherit;color:#303030;font-size:14px;text-align:initial;font-weight:400;font-style:normal;border-top:0px solid transparent;border-left:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-radius:0px 0px 0px 0px;border-color:transparent;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;box-shadow:none; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 10px 0px 10px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container{ align-items:start; }:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container{ flex-direction: row; }:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container  > .container-box:nth-child(1){
+  }}:where(#firmaglow-pl-art-root) .main-1240606{ color:#D5E5FF;font-family:Roboto;font-size:14px;font-weight:400;font-style:normal;padding:0px 0px 0px 0px;background-color:#fff;background-repeat:no-repeat; }:where(#firmaglow-pl-art-root) .fgh-head{
+        /* EDIT 2: accent. #D81F26 matches the CTA bar and the pull-quote rule
+           already on this page. #CE1126 is the flag red used on EnergyCut PL. */
+        --fgh-accent: #CE1126;
+        --fgh-ink: #14171A;
+        --fgh-mute: #8A9099;
+
+        display: block;
+        width: 100%;
+        margin: 0 0 18px;
+        font-family: inherit;
+        line-height: 1.3;
+    }/* ---- row 1: wordmark + date, sharing one line ---- */
+    :where(#firmaglow-pl-art-root) .fgh-head .fgh-row{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 0 0 8px;
+        border-bottom: 3px solid var(--fgh-ink);
+        margin: 0 0 9px;
+    }:where(#firmaglow-pl-art-root) .fgh-head .fgh-wm{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        color: var(--fgh-ink);
+        white-space: nowrap;
+        flex: none;
+    }/* second word in accent — the one idea worth keeping from the competitor */
+    :where(#firmaglow-pl-art-root) .fgh-head .fgh-wm em{
+        font-style: normal;
+        color: var(--fgh-accent);
+    }:where(#firmaglow-pl-art-root) .fgh-head .fgh-stamp{
+        font-size: 9.5px;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--fgh-mute);
+        text-align: right;
+        min-width: 0;          /* lets the long months wrap instead of overflowing */
+    }:where(#firmaglow-pl-art-root) .fgh-head .fgh-stamp span{ display: block; }/* ---- row 2: breadcrumb ---- */
+    :where(#firmaglow-pl-art-root) .fgh-head ol{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        gap: 6px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+    }:where(#firmaglow-pl-art-root) .fgh-head li{
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
+    }/* crumbs are plain text, not anchors — nothing to 404 on, nothing to tap */
+    :where(#firmaglow-pl-art-root) .fgh-head li span{
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        color: var(--fgh-mute);
+        white-space: nowrap;
+    }:where(#firmaglow-pl-art-root) .fgh-head li + li::before{
+        content: "\203A";
+        font-size: 12px;
+        line-height: 1;
+        color: #C7CCD3;
+        flex: none;
+    }/* current page — the only crumb allowed to clip */
+    :where(#firmaglow-pl-art-root) .fgh-head li:last-child span{
+        color: #4A5058;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-width: 0;
+    }/* "PIECZENIE STÓP" plus a long month is the tight case — buy room back */
+    @media (max-width: 400px){:where(#firmaglow-pl-art-root) .fgh-head{ margin-bottom: 14px; }:where(#firmaglow-pl-art-root) .fgh-head .fgh-wm{ font-size: 20px; }:where(#firmaglow-pl-art-root) .fgh-head .fgh-stamp{ font-size: 9px; letter-spacing: 0.05em; }:where(#firmaglow-pl-art-root) .fgh-head li span{ font-size: 10px; letter-spacing: 0.03em; }:where(#firmaglow-pl-art-root) .fgh-head ol, :where(#firmaglow-pl-art-root) .fgh-head li{ gap: 5px; }}:where(#firmaglow-pl-art-root) .section_wrapper_950693 .section_row{ max-width:1170px; }:where(#firmaglow-pl-art-root) .section_wrapper_950693{ width:100%; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .section_wrapper_950693{ width:100%; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .section_wrapper_950693{ width:100%; }}@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .section_wrapper_950693 .section_row{ max-width:1170px; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .section_wrapper_950693 .section_row{ max-width:1170px; }}:where(#firmaglow-pl-art-root) .el-950693{ display:inherit;margin:0px 0px 30px 0px;background-repeat:no-repeat; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-950693{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-950693{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ width:calc(100% - 0px); }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ width:calc(100% - 0px); }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ width:calc(100% - 0px); }}:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ display:inherit;color:#303030;font-size:14px;text-align:initial;font-weight:400;font-style:normal;border-top:0px solid transparent;border-left:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-radius:0px 0px 0px 0px;border-color:transparent;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;box-shadow:none; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#firmaglow-pl-art-root) .el-950693 .el-519949.section_row{ display:inherit; }}:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 10px 0px 10px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container{ align-items:start; }:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container{ flex-direction: row; }:where(#firmaglow-pl-art-root) .el-519949 .el-966436.container  > .container-box:nth-child(1){
       width: unset;
 						    min-width: 0;
 						    max-width: unset;
