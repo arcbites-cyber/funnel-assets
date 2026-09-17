@@ -580,17 +580,17 @@ display:block;
        jednej grupy, wiec wieksze logo = szersza grupa = wiecej pikseli w tym
        samym czasie. Powiekszenie logotypu samo w sobie przyspiesza pasek. */
     --ecm-speed: 16s;        /* mniej = szybciej */
-    --ecm-gap: 70px;         /* odstep miedzy logotypami */
-    --ecm-h: 46px;           /* wysokosc logotypu */
+    --ecm-gap: 58px;         /* odstep miedzy logotypami */
+    --ecm-h: 60px;           /* wysokosc logotypu */
     font-family: inherit;
     position: relative;
     width: 100%;
-    padding: 18px 0;
+    padding: 10px 0;
     background: #fff;
     overflow: hidden;
   }:where(#netroam-br-sp-root) .ecm-title{
     text-align: center;
-    margin: 0 0 15px;
+    margin: 0 0 11px;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: .07em;
@@ -627,10 +627,10 @@ display:block;
        wysokosci ok. 230 px. Ciasniejszy max-width obcialby im wysokosc i
        zrownal je optycznie z waskimi znakami -- ten sam blad, co kwadratowy
        kadr 160x160 w oryginalnych adresach obrazkow. */
-    max-width: 260px;
+    max-width: 340px;
     object-fit: contain;
     display: block;
-  }@media (max-width: 480px){:where(#netroam-br-sp-root) .ecm-wrap{ --ecm-gap: 44px; --ecm-h: 34px; padding: 15px 0; }:where(#netroam-br-sp-root) .ecm-title{ font-size: 13px; margin-bottom: 12px; }:where(#netroam-br-sp-root) .ecm-set img{ max-width: 200px; }}@media (prefers-reduced-motion: reduce){:where(#netroam-br-sp-root) .ecm-track{ animation: none; justify-content: center; width: 100%; }:where(#netroam-br-sp-root) .ecm-set:nth-child(2){ display: none; }:where(#netroam-br-sp-root) .ecm-set{ flex-wrap: wrap; justify-content: center; }:where(#netroam-br-sp-root) .ecm-viewport{ -webkit-mask-image: none; mask-image: none; }}:where(#netroam-br-sp-root) .el-443474 .el-684542.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:30px 0px 30px 0px;background-color:#0000;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#netroam-br-sp-root) .el-443474 .el-684542.container{ align-items:center; }:where(#netroam-br-sp-root) .el-443474 .el-684542.container{ flex-direction: row; }:where(#netroam-br-sp-root) .el-443474 .el-684542.container  > .container-box:nth-child(1){
+  }@media (max-width: 480px){:where(#netroam-br-sp-root) .ecm-wrap{ --ecm-gap: 34px; --ecm-h: 50px; padding: 8px 0; }:where(#netroam-br-sp-root) .ecm-title{ font-size: 13px; margin-bottom: 10px; }:where(#netroam-br-sp-root) .ecm-set img{ max-width: 260px; }}@media (prefers-reduced-motion: reduce){:where(#netroam-br-sp-root) .ecm-track{ animation: none; justify-content: center; width: 100%; }:where(#netroam-br-sp-root) .ecm-set:nth-child(2){ display: none; }:where(#netroam-br-sp-root) .ecm-set{ flex-wrap: wrap; justify-content: center; }:where(#netroam-br-sp-root) .ecm-viewport{ -webkit-mask-image: none; mask-image: none; }}:where(#netroam-br-sp-root) .el-443474 .el-684542.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:30px 0px 30px 0px;background-color:#0000;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#netroam-br-sp-root) .el-443474 .el-684542.container{ align-items:center; }:where(#netroam-br-sp-root) .el-443474 .el-684542.container{ flex-direction: row; }:where(#netroam-br-sp-root) .el-443474 .el-684542.container  > .container-box:nth-child(1){
       width: unset;
 						    min-width: 0;
 						    max-width: unset;
@@ -1643,17 +1643,17 @@ display:block;
        jednej grupy, wiec wieksze logo = szersza grupa = wiecej pikseli w tym
        samym czasie. Powiekszenie logotypu samo w sobie przyspiesza pasek. */
     --ecm-speed: 16s;        /* mniej = szybciej */
-    --ecm-gap: 70px;         /* odstep miedzy logotypami */
-    --ecm-h: 46px;           /* wysokosc logotypu */
+    --ecm-gap: 58px;         /* odstep miedzy logotypami */
+    --ecm-h: 60px;           /* wysokosc logotypu */
     font-family: inherit;
     position: relative;
     width: 100%;
-    padding: 18px 0;
+    padding: 10px 0;
     background: #fff;
     overflow: hidden;
   }#netroam-br-sp-root .ecm-title{
     text-align: center;
-    margin: 0 0 15px;
+    margin: 0 0 11px;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: .07em;
@@ -1690,12 +1690,12 @@ display:block;
        wysokosci ok. 230 px. Ciasniejszy max-width obcialby im wysokosc i
        zrownal je optycznie z waskimi znakami -- ten sam blad, co kwadratowy
        kadr 160x160 w oryginalnych adresach obrazkow. */
-    max-width: 260px;
+    max-width: 340px;
     object-fit: contain;
     display: block;
   }
 
-  @media (max-width: 480px){#netroam-br-sp-root .ecm-wrap{ --ecm-gap: 44px; --ecm-h: 34px; padding: 15px 0; }#netroam-br-sp-root .ecm-title{ font-size: 13px; margin-bottom: 12px; }#netroam-br-sp-root .ecm-set img{ max-width: 200px; }
+  @media (max-width: 480px){#netroam-br-sp-root .ecm-wrap{ --ecm-gap: 34px; --ecm-h: 50px; padding: 8px 0; }#netroam-br-sp-root .ecm-title{ font-size: 13px; margin-bottom: 10px; }#netroam-br-sp-root .ecm-set img{ max-width: 260px; }
   }
 
   @media (prefers-reduced-motion: reduce){#netroam-br-sp-root .ecm-track{ animation: none; justify-content: center; width: 100%; }#netroam-br-sp-root .ecm-set:nth-child(2){ display: none; }#netroam-br-sp-root .ecm-set{ flex-wrap: wrap; justify-content: center; }#netroam-br-sp-root .ecm-viewport{ -webkit-mask-image: none; mask-image: none; }
