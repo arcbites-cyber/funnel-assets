@@ -1387,7 +1387,7 @@
 #protezafix-br-sp-root :is(.el-118859 div.btn-sub-headline, .el-685510 div.btn-sub-headline, .el-866063 div.btn-sub-headline, .el-949230 div.btn-sub-headline, .el-986493 div.btn-sub-headline){ font-size:15px !important; line-height:1.30 !important; }
 #protezafix-br-sp-root :is(.el-143589 div.faq-title, .el-974824 div.faq-title){ line-height:1.50 !important; }
 #protezafix-br-sp-root :is(.el-209485 p, .el-209485 strong, .el-226227 p, .el-226227 strong, .el-361339 p, .el-361339 strong, .el-475145 p, .el-475145 strong, .el-516147 p, .el-516147 strong, .el-618903 p, .el-618903 strong, .el-736441 p, .el-736441 strong, .el-893442 p){ font-size:14px !important; line-height:1.30 !important; }
-#protezafix-br-sp-root :is(.el-291248 span, .el-600319 span){ font-size:18px !important; line-height:1.50 !important; }
+#protezafix-br-sp-root :is(.el-291248 span){ font-size:18px !important; line-height:1.50 !important; }
 #protezafix-br-sp-root :is(.el-184469 strong, .el-233286 strong, .el-421112 strong, .el-656274 strong, .el-942639 strong){ color:#49a368 !important; }
 #protezafix-br-sp-root :is(.el-216904 p){ color:#757575 !important; }
 #protezafix-br-sp-root :is(.el-226227 strong, .el-361339 strong, .el-475145 strong, .el-516147 strong, .el-618903 strong){ color:#eb0000 !important; }
