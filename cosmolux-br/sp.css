@@ -1115,7 +1115,7 @@
 #cosmolux-br-sp-root .el-37019 img{ aspect-ratio:auto 900 / 300 !important; height:auto !important; }
 
 #cosmolux-br-sp-root .el-144539{ flex-wrap:nowrap !important; justify-content:center !important; align-items:center !important; padding:6px 10px !important; background-color:#2B3EB5 !important; }
-#cosmolux-br-sp-root .el-144539 .cbox-144539-0{ flex:0 0 auto !important; width:auto !important; }
-#cosmolux-br-sp-root .el-144539 .cbox-144539-1{ flex:0 1 auto !important; min-width:0 !important; width:auto !important; }
-#cosmolux-br-sp-root .el-144539 .cbox-144539-1 .headline,
-#cosmolux-br-sp-root .el-144539 .cbox-144539-1 .headline-inner{ padding-left:6px !important; padding-right:0 !important; }
+#cosmolux-br-sp-root#cosmolux-br-sp-root .el-144539 .cbox-144539-0{ flex:0 0 auto !important; width:auto !important; }
+#cosmolux-br-sp-root#cosmolux-br-sp-root .el-144539 .cbox-144539-1{ flex:0 1 auto !important; min-width:0 !important; width:auto !important; }
+#cosmolux-br-sp-root#cosmolux-br-sp-root .el-144539 .cbox-144539-1 .headline{ padding-left:8px !important; padding-right:0 !important; }
+#cosmolux-br-sp-root#cosmolux-br-sp-root .el-144539 .cbox-144539-1 .headline-inner{ padding-left:0 !important; padding-right:0 !important; }
