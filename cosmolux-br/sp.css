@@ -1111,3 +1111,5 @@
 
 
 #cosmolux-br-sp-root :is(.el-303969, .el-397071) img{ max-width:max(420px, (960px - 100vw) * 999) !important; margin-left:auto !important; margin-right:auto !important; }
+
+#cosmolux-br-sp-root .el-37019 img{ aspect-ratio:auto 900 / 300 !important; height:auto !important; }
