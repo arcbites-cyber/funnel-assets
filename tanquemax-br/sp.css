@@ -1700,7 +1700,6 @@ color: #fff;
 
 
 
-#tanquemax-br-sp-root#tanquemax-br-sp-root :is(section[id="970303"], section[id="107635"], section[id="958836"], section[id="604770"]){ margin-top:0 !important; padding-top:12px !important; padding-bottom:10px !important; }
 #tanquemax-br-sp-root#tanquemax-br-sp-root :is(section[id="970303"], section[id="107635"], section[id="958836"], section[id="604770"]) > .section_row{ margin-top:0 !important; }
 
 #tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p *{ font-size:max(28px, min(32px, (100vw - 959px) * 999)) !important; line-height:1.2 !important; }
