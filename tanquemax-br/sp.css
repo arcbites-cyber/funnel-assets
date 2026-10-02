@@ -1720,3 +1720,6 @@ color: #fff;
 #tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-602343, .el-279603, .el-261257, .el-213792, .el-148541, .el-308048){ padding-left:6px !important; padding-right:0 !important; }
 #tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-602343, .el-279603, .el-261257, .el-213792, .el-148541, .el-308048) strong{ font-size:17px !important; font-weight:700 !important; white-space:nowrap !important; }
 #tanquemax-br-sp-root#tanquemax-br-sp-root .container-box:has(+ .container-box > .element-wrapper > :is(.el-602343, .el-279603, .el-261257, .el-213792, .el-148541, .el-308048)){ flex:0 0 26px !important; min-width:0 !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-992218, .el-608370, .el-467208, .el-167131){ padding-left:0 !important; padding-right:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-992218, .el-608370, .el-467208, .el-167131) p, #tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-992218, .el-608370, .el-467208, .el-167131) p *{ font-size:15px !important; }
