@@ -1686,3 +1686,34 @@ color: #fff;
 }
 
 :where(#tanquemax-br-sp-root) .tqm-foot{color:inherit;text-decoration:underline;}:where(#tanquemax-br-sp-root) .tqm-mq{display:block;width:100%;min-width:0;flex:1 1 100%;}:where(#tanquemax-br-sp-root) .tqm-hdr{display:flex;flex-direction:column;align-items:center;gap:4px;width:100%;margin:4px 0;font-family:'Work Sans',Arial,sans-serif;}:where(#tanquemax-br-sp-root) .tqm-hdr-t{font-size:17px;color:#303030;}:where(#tanquemax-br-sp-root) .tqm-hdr-t b{color:#000;}:where(#tanquemax-br-sp-root) #oferta{scroll-margin-top:12px;}:where(#tanquemax-br-sp-root) .tqm-rate{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px 8px;width:100%;margin:6px 0;font-family:'Work Sans',Arial,sans-serif;}:where(#tanquemax-br-sp-root) .tqm-rate-t{font-size:16px;color:#303030;line-height:1.3;}:where(#tanquemax-br-sp-root) .tqm-rate-t b{color:#000;}
+
+#tanquemax-br-sp-root :is(.el-110619 p, .el-165479 p, .el-318435 em, .el-328561 em, .el-341206 em, .el-381772 p, .el-393798 p, .el-464478 p, .el-471885 div.faq-title, .el-474604 div, .el-477877 em, .el-492651 em, .el-578537 div.faq-title, .el-612640 p, .el-633060 em, .el-670288 p, .el-732971 p, .el-860293 p, .el-865239 div.faq-title, .el-88717 p){ font-size:18px !important; line-height:1.50 !important; }
+#tanquemax-br-sp-root :is(.el-148541 strong, .el-370889 p, .el-440833 p, .el-474604 span, .el-503895 p, .el-574162 p, .el-612640 a, .el-612640 strong, .el-785293 p, .el-795559 a, .el-802841 p, .el-850778 p){ font-size:14px !important; line-height:1.30 !important; }
+#tanquemax-br-sp-root :is(.el-213792 strong, .el-261257 strong, .el-279603 strong, .el-280598 strong, .el-308048 strong, .el-576261 strong, .el-597531 strong, .el-602343 strong){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#tanquemax-br-sp-root :is(.el-969171 strong){ color:#00a770 !important; }
+
+#tanquemax-br-sp-root :is(.el-110619 p, .el-165479 p, .el-318435 em, .el-328561 em, .el-341206 em, .el-381772 p, .el-393798 p, .el-464478 p, .el-471885 div.faq-title, .el-474604 div, .el-477877 em, .el-492651 em, .el-578537 div.faq-title, .el-633060 em, .el-670288 p, .el-732971 p, .el-860293 p, .el-865239 div.faq-title, .el-88717 p){ font-size:18px !important; line-height:1.50 !important; }
+#tanquemax-br-sp-root :is(.el-148541 strong, .el-191537 p, .el-20625 a, .el-440833 p, .el-474604 span, .el-503895 p, .el-574162 p, .el-785293 p, .el-802841 p, .el-850778 p){ font-size:14px !important; line-height:1.30 !important; }
+#tanquemax-br-sp-root :is(.el-213792 strong, .el-261257 strong, .el-279603 strong, .el-280598 strong, .el-308048 strong, .el-576261 strong, .el-597531 strong, .el-602343 strong){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#tanquemax-br-sp-root :is(.el-505647 p){ line-height:1.50 !important; }
+#tanquemax-br-sp-root :is(.el-969171 strong){ color:#00a770 !important; }
+
+
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root :is(section[id="970303"], section[id="107635"], section[id="958836"], section[id="604770"]){ margin-top:0 !important; padding-top:12px !important; padding-bottom:10px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root :is(section[id="970303"], section[id="107635"], section[id="958836"], section[id="604770"]) > .section_row{ margin-top:0 !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p *{ font-size:max(28px, min(32px, (100vw - 959px) * 999)) !important; line-height:1.2 !important; }
+#tanquemax-br-sp-root .el-79917 p{ text-wrap:balance; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header{ flex-wrap:wrap !important; align-items:center !important; row-gap:6px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header > div{ display:contents !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-name{ font-size:17px !important; font-weight:700 !important; margin-left:10px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-verified{ flex:0 0 100% !important; font-size:18px !important; line-height:1.3 !important; color:#3B4A63 !important; white-space:nowrap !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-footer, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-footer *{ font-size:15px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-actions span{ color:#3B4A63 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-actions .time{ color:#4B4F56 !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-273640 img{ max-width:225px !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-425023{ margin-bottom:8px !important; }
