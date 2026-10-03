@@ -1687,14 +1687,20 @@ color: #fff;
 #tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p *{ font-size:max(28px, min(32px, (100vw - 959px) * 999)) !important; line-height:1.2 !important; }
 #tanquemax-br-sp-root .el-79917 p{ text-wrap:balance; }
 
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header{ flex-wrap:nowrap !important; align-items:center !important; margin-bottom:6px !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header > div{ display:flex !important; align-items:center !important; flex-wrap:wrap !important; gap:2px 8px !important; min-width:0 !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-name{ font-size:15px !important; font-weight:700 !important; line-height:1.2 !important; margin:0 !important; white-space:nowrap !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-verified{ font-size:13px !important; line-height:1.2 !important; color:#3B4A63 !important; white-space:nowrap !important; margin:0 !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-verified img{ width:14px !important; height:14px !important; margin:0 4px 0 0 !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-footer, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-footer *{ font-size:15px !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-actions span{ color:#3B4A63 !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-actions .time{ color:#4B4F56 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-review.fb-b{ display:flex !important; gap:8px !important; align-items:flex-start !important; background:transparent !important; box-shadow:none !important; padding:0 !important; border-radius:0 !important; max-width:460px !important; margin:0 auto 18px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-avatar{ width:40px !important; height:40px !important; flex:0 0 40px !important; margin:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-col{ flex:1 1 auto !important; min-width:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-bubble{ position:relative !important; background:#F0F2F5 !important; border-radius:18px !important; padding:8px 12px 12px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-name{ font-size:16px !important; font-weight:700 !important; line-height:1.3 !important; color:#050505 !important; margin:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-verified{ display:flex !important; align-items:center !important; gap:4px !important; font-size:13px !important; font-weight:400 !important; line-height:1.2 !important; color:#65676B !important; margin:1px 0 4px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-verified img{ width:14px !important; height:14px !important; margin:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-comment{ font-size:17px !important; line-height:1.4 !important; color:#050505 !important; margin:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-reactions{ position:absolute !important; right:6px !important; bottom:-12px !important; display:flex !important; align-items:center !important; background:#fff !important; border-radius:12px !important; padding:2px 6px 2px 5px !important; box-shadow:0 1px 3px rgba(0,0,0,.2) !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-reactions img{ width:18px !important; height:18px !important; border-radius:50% !important; margin:0 0 0 -3px !important; box-shadow:0 0 0 2px #fff !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-reaction-count{ font-size:14px !important; color:#65676B !important; margin-left:4px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-actions{ display:flex !important; gap:14px !important; padding:6px 12px 0 !important; margin:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-actions span{ font-size:14px !important; font-weight:600 !important; color:#65676B !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-b .fb-actions .time{ font-weight:400 !important; }
 
 #tanquemax-br-sp-root#tanquemax-br-sp-root .el-273640 img{ max-width:225px !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
 
