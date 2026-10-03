@@ -1146,9 +1146,6 @@ color: #fff;
 }:where(#tanquemax-br-sp-root) .el-602343{
     font-size: 12px;
     text-align: left;
-}:where(#tanquemax-br-sp-root) .el-440833{
-    font-size: 10px;
-    text-align: center;
 }:where(#tanquemax-br-sp-root) .el-801178{
     align-items:center;
 }:where(#tanquemax-br-sp-root) .el-801178 img{
@@ -1209,9 +1206,6 @@ color: #fff;
 }:where(#tanquemax-br-sp-root) .el-279603{
     font-size: 12px;
     text-align: left;
-}:where(#tanquemax-br-sp-root) .el-802841{
-    font-size: 10px;
-    text-align: center;
 }:where(#tanquemax-br-sp-root) .el-52715{
     align-items:center;
 }:where(#tanquemax-br-sp-root) .el-52715 img{
@@ -1272,9 +1266,6 @@ color: #fff;
 }:where(#tanquemax-br-sp-root) .el-261257{
     font-size: 12px;
     text-align: left;
-}:where(#tanquemax-br-sp-root) .el-574162{
-    font-size: 10px;
-    text-align: center;
 }:where(#tanquemax-br-sp-root) .el-35323{
     align-items:center;
 }:where(#tanquemax-br-sp-root) .el-35323 img{
@@ -1381,9 +1372,6 @@ color: #fff;
 }:where(#tanquemax-br-sp-root) .el-213792{
     font-size: 12px;
     text-align: left;
-}:where(#tanquemax-br-sp-root) .el-503895{
-    font-size: 10px;
-    text-align: center;
 }:where(#tanquemax-br-sp-root) .el-124640{
     align-items:center;
 }:where(#tanquemax-br-sp-root) .el-124640 img{
@@ -1444,9 +1432,6 @@ color: #fff;
 }:where(#tanquemax-br-sp-root) .el-148541{
     font-size: 12px;
     text-align: left;
-}:where(#tanquemax-br-sp-root) .el-850778{
-    font-size: 10px;
-    text-align: center;
 }:where(#tanquemax-br-sp-root) .el-558464{
     align-items:center;
 }:where(#tanquemax-br-sp-root) .el-558464 img{
@@ -1507,9 +1492,6 @@ color: #fff;
 }:where(#tanquemax-br-sp-root) .el-308048{
     font-size: 12px;
     text-align: left;
-}:where(#tanquemax-br-sp-root) .el-785293{
-    font-size: 10px;
-    text-align: center;
 }:where(#tanquemax-br-sp-root) .el-626831{
     align-items:center;
 }:where(#tanquemax-br-sp-root) .el-626831 img{
@@ -1705,10 +1687,11 @@ color: #fff;
 #tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-79917 p *{ font-size:max(28px, min(32px, (100vw - 959px) * 999)) !important; line-height:1.2 !important; }
 #tanquemax-br-sp-root .el-79917 p{ text-wrap:balance; }
 
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header{ flex-wrap:wrap !important; align-items:center !important; row-gap:6px !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header > div{ display:contents !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-name{ font-size:17px !important; font-weight:700 !important; margin-left:10px !important; }
-#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-verified{ flex:0 0 100% !important; font-size:18px !important; line-height:1.3 !important; color:#3B4A63 !important; white-space:nowrap !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header{ flex-wrap:nowrap !important; align-items:center !important; margin-bottom:6px !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-header > div{ display:flex !important; align-items:center !important; flex-wrap:wrap !important; gap:2px 8px !important; min-width:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-name{ font-size:15px !important; font-weight:700 !important; line-height:1.2 !important; margin:0 !important; white-space:nowrap !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-verified{ font-size:13px !important; line-height:1.2 !important; color:#3B4A63 !important; white-space:nowrap !important; margin:0 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-verified img{ width:14px !important; height:14px !important; margin:0 4px 0 0 !important; }
 #tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-footer, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-footer *{ font-size:15px !important; }
 #tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-actions span{ color:#3B4A63 !important; }
 #tanquemax-br-sp-root#tanquemax-br-sp-root .el-474604 .fb-actions .time{ color:#4B4F56 !important; }
@@ -1723,3 +1706,22 @@ color: #fff;
 
 #tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-992218, .el-608370, .el-467208, .el-167131){ padding-left:0 !important; padding-right:0 !important; }
 #tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-992218, .el-608370, .el-467208, .el-167131) p, #tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-992218, .el-608370, .el-467208, .el-167131) p *{ font-size:15px !important; }
+
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-544725 h2, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-544725 h2 *{ font-size:max(16px, min(18px, (100vw - 959px) * 999)) !important; line-height:1.15 !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-929768 img{ width:250px !important; max-width:100% !important; height:auto !important; margin:0 auto !important; display:block !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-65573 img{ border:2px solid #000 !important; box-sizing:border-box !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root div:has(> .tqm-rate){ width:100% !important; align-self:stretch !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .tqm-rate{ justify-content:flex-start !important; padding:0 5px !important; box-sizing:border-box !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-969171 strong:has(s), #tanquemax-br-sp-root#tanquemax-br-sp-root .el-969171 s{ color:#666 !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root :is(.el-284450, .el-796611, .el-695666, .el-210244, .el-981618, .el-572250){ justify-content:space-between !important; align-items:center !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-127539 p, #tanquemax-br-sp-root#tanquemax-br-sp-root .el-127539 p *{ line-height:1.35 !important; }
+#tanquemax-br-sp-root#tanquemax-br-sp-root .el-127539 p{ margin:0 0 6px !important; }
+
+#tanquemax-br-sp-root#tanquemax-br-sp-root .faq .faq-title, #tanquemax-br-sp-root#tanquemax-br-sp-root .faq .faq-title *{ font-size:18px !important; line-height:1.3 !important; }
