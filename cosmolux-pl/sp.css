@@ -1163,3 +1163,7 @@
 
 #cosmolux-pl-sp-root .tb-mobile-tp img{ height:16px !important; width:auto !important; max-width:none !important; flex:0 0 auto !important; }
 #cosmolux-pl-sp-root .tb-mobile-tp{ flex:0 0 auto !important; }
+
+#cosmolux-pl-sp-root .el-144539{ flex-wrap:nowrap !important; }
+#cosmolux-pl-sp-root .el-144539 > .container-box:first-child{ width:24px !important; min-width:24px !important; max-width:24px !important; }
+#cosmolux-pl-sp-root .el-180310 .headline{ font-size:16px !important; }
