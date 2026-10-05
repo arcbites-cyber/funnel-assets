@@ -1905,3 +1905,13 @@ color: #fff;
 #floracalma-br-sp-root#floracalma-br-sp-root :is(.el-969171, .el-148997) h3 > strong:has(s){ display:block !important; margin-bottom:2px !important; }
 
 #floracalma-br-sp-root#floracalma-br-sp-root :is(.el-96541, .el-443379) p, #floracalma-br-sp-root#floracalma-br-sp-root :is(.el-96541, .el-443379) p *{ font-size:18px !important; line-height:1.15 !important; white-space:nowrap !important; }
+
+#floracalma-br-sp-root#floracalma-br-sp-root .el-148997 strong:has(s), #floracalma-br-sp-root#floracalma-br-sp-root .el-148997 s{ color:#666 !important; }
+
+#floracalma-br-sp-root#floracalma-br-sp-root .el-50487{ width:max-content !important; max-width:100% !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .el-50487 > .container-box{ flex:0 0 auto !important; }
+
+#floracalma-br-sp-root#floracalma-br-sp-root :is(.el-284651, .el-762382, .el-364620, .el-678270) img{ display:block !important; max-width:420px !important; height:auto !important; margin:0 auto !important; }
+
+#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18 > .container-box:nth-child(2){ flex:1 1 auto !important; min-width:0 !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18 > .container-box:nth-child(3){ flex:0 0 auto !important; }
