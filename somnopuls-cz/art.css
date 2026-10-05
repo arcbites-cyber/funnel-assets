@@ -415,3 +415,9 @@
 
 
 #somnopuls-cz-art-root :is(.el-648843, .el-668277) p{ font-size:14px !important; line-height:1.5 !important; }
+
+
+#somnopuls-cz-art-root#somnopuls-cz-art-root .el-92958 img{ width:auto !important; height:clamp(36px, calc(18.5vw - 22px), 50px) !important; max-width:none !important; }
+#somnopuls-cz-art-root#somnopuls-cz-art-root .el-477393{ flex-wrap:nowrap !important; align-items:center !important; }
+#somnopuls-cz-art-root#somnopuls-cz-art-root .cbox-477393-0{ flex:0 0 auto !important; width:auto !important; max-width:none !important; }
+#somnopuls-cz-art-root#somnopuls-cz-art-root .cbox-477393-1{ flex:1 1 auto !important; min-width:0 !important; max-width:none !important; }

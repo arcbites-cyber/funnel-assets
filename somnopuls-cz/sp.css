@@ -1158,13 +1158,13 @@
 #somnopuls-cz-sp-root .faq .faq-header, #somnopuls-cz-sp-root .faq:hover .faq-header{ background-color:#8C6A24 !important; }
 
 
-#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]){ flex-wrap:wrap !important; align-items:center !important; row-gap:4px; }
-
-#somnopuls-cz-sp-root .container.sb_container.sb_container:has(img[src*="/flag_cz_round."]){ margin-top:7px !important; row-gap:3px !important; }
-#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:nth-child(2) .paragraph{ padding-top:10px !important; padding-bottom:3px !important; }
-#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:first-child{ flex:0 0 100% !important; min-width:100% !important; max-width:100% !important; }
+#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]){ flex-wrap:nowrap !important; align-items:center !important; justify-content:space-between !important; column-gap:8px; margin-top:7px !important; }
+#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box{ width:auto !important; max-width:none !important; min-width:0 !important; flex:0 0 auto !important; }
+#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:first-child{ flex:1 1 auto !important; }
 #somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:first-child .container-box:last-child{ flex:1 1 auto !important; }
-#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:nth-child(2){ flex:0 0 auto !important; min-width:0 !important; max-width:none !important; width:auto !important; }
+#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:nth-child(2){ display:none !important; }
+#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:nth-child(3) img{ width:auto !important; height:20px !important; }
+#somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) > .container-box:nth-child(4) img{ width:auto !important; height:15px !important; }
 #somnopuls-cz-sp-root .container.sb_container:has(img[src*="/flag_cz_round."]) :is(p, p *){ white-space:nowrap !important; }
 
 
@@ -1190,3 +1190,13 @@
 
 
 #somnopuls-cz-sp-root .el-48256.step_Container{ margin-bottom:12px !important; }
+
+
+#somnopuls-cz-sp-root .sticky_show_after.visible section.section{ width:100% !important; align-self:stretch !important; }
+#somnopuls-cz-sp-root .section_wrapper_158235 .section_row{ margin-left:auto !important; margin-right:auto !important; width:100% !important; justify-content:center !important; }
+#somnopuls-cz-sp-root .section_wrapper_158235 .row-column{ width:100% !important; display:flex !important; justify-content:center !important; }
+
+
+#somnopuls-cz-sp-root#somnopuls-cz-sp-root :is(.el-178100, .el-251421, .el-943133, .el-987828, .el-486030) img{ max-width:420px !important; height:auto !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
+
+#somnopuls-cz-sp-root#somnopuls-cz-sp-root .el-670628{ max-width:420px !important; margin-left:auto !important; margin-right:auto !important; }
