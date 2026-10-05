@@ -1908,10 +1908,12 @@ color: #fff;
 
 #floracalma-br-sp-root#floracalma-br-sp-root .el-148997 strong:has(s), #floracalma-br-sp-root#floracalma-br-sp-root .el-148997 s{ color:#666 !important; }
 
-#floracalma-br-sp-root#floracalma-br-sp-root .el-50487{ width:max-content !important; max-width:100% !important; }
-#floracalma-br-sp-root#floracalma-br-sp-root .el-50487 > .container-box{ flex:0 0 auto !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .el-50487{ width:auto !important; max-width:none !important; flex-wrap:nowrap !important; padding-right:5px !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .el-50487 > .container-box{ flex:0 0 auto !important; width:auto !important; }
 
 #floracalma-br-sp-root#floracalma-br-sp-root :is(.el-284651, .el-762382, .el-364620, .el-678270) img{ display:block !important; max-width:420px !important; height:auto !important; margin:0 auto !important; }
 
-#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18 > .container-box:nth-child(2){ flex:1 1 auto !important; min-width:0 !important; }
-#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18 > .container-box:nth-child(3){ flex:0 0 auto !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18{ flex-wrap:nowrap !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18 > .container-box:nth-child(2){ flex:0 1 auto !important; width:auto !important; min-width:0 !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18 > .container-box:nth-child(3){ flex:0 0 100px !important; width:100px !important; min-width:0 !important; max-width:100px !important; margin-left:auto !important; }
+#floracalma-br-sp-root#floracalma-br-sp-root .spb-s18 > .container-box:nth-child(3) :is(.element-wrapper, .img){ width:100px !important; max-width:100px !important; flex:0 0 auto !important; }
