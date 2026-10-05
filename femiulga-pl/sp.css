@@ -1773,6 +1773,8 @@ color: #fff;
 
 :where(#femiulga-pl-sp-root) .fmu-foot{max-width:820px;margin:0 auto;padding:14px 14px 24px;text-align:center;font-family:Inter,Arial,sans-serif;
   font-size:15px;line-height:1.45;color:#333;}:where(#femiulga-pl-sp-root) .fmu-foot p{margin:4px 0;}:where(#femiulga-pl-sp-root) .fmu-foot a{color:#1d4f91;text-decoration:underline;display:inline-block;padding:2px 2px;}:where(#femiulga-pl-sp-root) .fmu-foot .fmu-brand{font-weight:800;font-size:18px;color:#1d1d1d;}:where(#femiulga-pl-sp-root) .fmu-sec{width:100%;max-width:640px;margin:8px auto 4px;box-sizing:border-box;}
+#femiulga-pl-sp-root > section{margin-left:auto;margin-right:auto}
+
 
 #femiulga-pl-sp-root :is(.el-148541 strong, .el-213792 strong, .el-261257 strong, .el-279603 strong, .el-280598 strong, .el-308048 strong, .el-576261 strong, .el-597531 strong, .el-602343 strong){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
 #femiulga-pl-sp-root :is(.el-165479 p, .el-318435 em, .el-328561 em, .el-341206 em, .el-474604 div, .el-477877 em, .el-492651 em, .el-633060 em, .el-732971 p, .el-860293 p, .el-88717 p){ font-size:18px !important; line-height:1.50 !important; }
@@ -1850,3 +1852,7 @@ color: #fff;
 #femiulga-pl-sp-root#femiulga-pl-sp-root .container:has(> .container-box > .element-wrapper > .img > img[src*="/flag_pl_round."]) .paragraph-inner p, #femiulga-pl-sp-root#femiulga-pl-sp-root .container:has(> .container-box > .element-wrapper > .img > img[src*="/flag_pl_round."]) .paragraph-inner p *{ white-space:nowrap !important; }
 #femiulga-pl-sp-root#femiulga-pl-sp-root .container:has(> .container-box > .element-wrapper > .img > img[src*="/flag_pl_round."]) > .container-box:nth-child(2){ flex:1 1 auto !important; min-width:0 !important; padding-left:4px !important; }
 #femiulga-pl-sp-root#femiulga-pl-sp-root .container:has(> .container-box > .element-wrapper > .img > img[src*="/flag_pl_round."]) > .container-box:last-child:not(:nth-child(2)){ flex:0 0 auto !important; width:auto !important; min-width:0 !important; }
+
+#femiulga-pl-sp-root#femiulga-pl-sp-root [id="819718"]{ margin-left:auto !important; margin-right:auto !important; }
+
+#femiulga-pl-sp-root#femiulga-pl-sp-root :is(.el-284651, .el-762382, .el-364620, .el-678270) img{ max-width:420px !important; height:auto !important; margin-left:auto !important; margin-right:auto !important; }
