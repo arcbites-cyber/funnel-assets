@@ -421,3 +421,6 @@
 #somnopuls-cz-art-root#somnopuls-cz-art-root .el-477393{ flex-wrap:nowrap !important; align-items:center !important; }
 #somnopuls-cz-art-root#somnopuls-cz-art-root .cbox-477393-0{ flex:0 0 auto !important; width:auto !important; max-width:none !important; }
 #somnopuls-cz-art-root#somnopuls-cz-art-root .cbox-477393-1{ flex:1 1 auto !important; min-width:0 !important; max-width:none !important; }
+
+
+#somnopuls-cz-art-root#somnopuls-cz-art-root :is(.el-379092, .el-399794, .el-404015, .el-491322, .el-543149, .el-788594, .el-844515, .el-923969, .el-933922, .el-992330) .paragraph p:last-child > span:is(:last-child, :nth-last-child(2)){ white-space:nowrap !important; }
