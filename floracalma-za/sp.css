@@ -1955,6 +1955,8 @@ color: #fff;
 
 :where(#floracalma-za-sp-root) .fcz-rate{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px;margin:6px 10px;
   font-family:Inter,Arial,sans-serif;font-size:16px;line-height:1.3;color:#303030;}:where(#floracalma-za-sp-root) .fcz-rate b{font-weight:800;}:where(#floracalma-za-sp-root) .fcz-hp{display:flex;flex-direction:column;align-items:center;gap:6px;margin:10px 0 0;}
+#floracalma-za-sp-root > section{margin-left:auto;margin-right:auto}
+
 
 #floracalma-za-sp-root :is(.el-148541 strong, .el-213792 strong, .el-261257 strong, .el-279603 strong, .el-308048 strong, .el-576261 strong, .el-597531 strong, .el-602343 strong){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
 #floracalma-za-sp-root :is(.el-165479 p, .el-318435 em, .el-328561 em, .el-341206 em, .el-474604 div, .el-477877 em, .el-492651 em, .el-612640 p, .el-633060 em, .el-732971 p, .el-860293 p, .el-88717 p){ font-size:18px !important; line-height:1.50 !important; }
