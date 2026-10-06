@@ -73,10 +73,6 @@ color: #fff;
     align-items:center;
 }:where(#floracalma-se-sp-root) .el-65573 img{
     
-}:where(#floracalma-se-sp-root) .el-325731{
-    align-items:flex-start;
-}:where(#floracalma-se-sp-root) .el-325731 img{
-    
 }:where(#floracalma-se-sp-root) .el-52089{
     align-items:flex-start;
 }:where(#floracalma-se-sp-root) .el-52089 img{
@@ -1861,7 +1857,10 @@ color: #fff;
 
 #floracalma-se-sp-root#floracalma-se-sp-root .el-544725, #floracalma-se-sp-root#floracalma-se-sp-root .el-544725 *{ font-size:clamp(16px, (100vw - 960px) * 999, 18px) !important; }
 
-#floracalma-se-sp-root#floracalma-se-sp-root .el-65573 img{ max-width:420px !important; height:auto !important; margin-left:auto !important; margin-right:auto !important; }
+#floracalma-se-sp-root#floracalma-se-sp-root .el-65573 img{ width:100% !important; max-width:100% !important; height:auto !important; }
+
+#floracalma-se-sp-root#floracalma-se-sp-root .el-52089{ margin:10px 10px 8px !important; }
+#floracalma-se-sp-root#floracalma-se-sp-root .el-52089 img{ width:min(100%, 480px) !important; max-width:min(100%, 480px) !important; height:auto !important; }
 
 
 #floracalma-se-sp-root#floracalma-se-sp-root .fmu-foot p:nth-child(2){ font-size:17px !important; line-height:1.45 !important; }
