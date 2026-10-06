@@ -424,3 +424,8 @@
 
 
 #somnopuls-cz-art-root#somnopuls-cz-art-root :is(.el-379092, .el-399794, .el-404015, .el-491322, .el-543149, .el-788594, .el-844515, .el-923969, .el-933922, .el-992330) .paragraph p:last-child > span:is(:last-child, :nth-last-child(2)){ white-space:nowrap !important; }
+
+
+#somnopuls-cz-art-root .section_wrapper_249532 .section{ width:100% !important; align-self:stretch !important; }
+#somnopuls-cz-art-root .section_wrapper_249532 .section_row{ margin-left:auto !important; margin-right:auto !important; width:100% !important; max-width:100% !important; justify-content:center !important; }
+#somnopuls-cz-art-root .section_wrapper_249532 .row-column{ width:100% !important; display:flex !important; justify-content:center !important; }
