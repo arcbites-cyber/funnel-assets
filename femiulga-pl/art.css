@@ -1627,3 +1627,5 @@
 #femiulga-pl-art-root#femiulga-pl-art-root .el-38344{ flex-direction:column !important; align-items:center !important; justify-content:center !important; }
 #femiulga-pl-art-root#femiulga-pl-art-root :is(.cbox-38344-0, .cbox-38344-1){ width:auto !important; max-width:100% !important; flex:0 0 auto !important; justify-content:center !important; }
 #femiulga-pl-art-root#femiulga-pl-art-root .el-16028 .paragraph{ padding-top:4px !important; padding-bottom:0 !important; text-align:center !important; }
+
+#femiulga-pl-art-root#femiulga-pl-art-root{ padding-bottom:clamp(90px, (100vw - 960px) * 999, 130px) !important; }
