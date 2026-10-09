@@ -1864,3 +1864,6 @@ color: #fff;
 
 
 #floracalma-se-sp-root#floracalma-se-sp-root .fmu-foot p:nth-child(2){ font-size:17px !important; line-height:1.45 !important; }
+
+#floracalma-se-sp-root#floracalma-se-sp-root .logo-center-el .star-icon{ display:none !important; }
+#floracalma-se-sp-root#floracalma-se-sp-root .logo-center-el .line_text{ background:#fff !important; padding:6px 16px !important; border-radius:999px !important; box-shadow:0 1px 6px rgba(0,0,0,.18) !important; white-space:nowrap !important; }
