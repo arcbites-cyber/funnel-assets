@@ -1600,7 +1600,6 @@
 
 #femiulga-pl-art-root :is(.el-100861 p, .el-178555 p, .el-18350 p, .el-201378 p, .el-215057 p, .el-316845 p, .el-338399 p, .el-338399 strong, .el-365573 p, .el-405844 p, .el-406097 p, .el-410051 p, .el-4306 p, .el-4306 strong, .el-432091 p, .el-432091 strong, .el-440370 p, .el-465439 em, .el-465439 p, .el-465439 strong, .el-508714 p, .el-547458 p, .el-574233 p, .el-640354 p, .el-648263 p, .el-648263 strong, .el-684332 p, .el-691084 p, .el-719232 p, .el-719232 strong, .el-735915 p, .el-740096 p, .el-744998 p, .el-76368 p, .el-784146 p, .el-784146 strong, .el-791623 p, .el-795139 p, .el-795139 strong, .el-803495 p, .el-803495 strong, .el-850678 p, .el-858790 p, .el-863402 p, .el-928948 p, .el-975281 p){ line-height:1.50 !important; }
 #femiulga-pl-art-root :is(.el-308033 span, .el-308033 u, .el-348521 span, .el-348521 u, .el-365573 span, .el-365573 u, .el-410051 span, .el-410051 u, .el-443164 span, .el-443164 u, .el-574233 span, .el-574233 u, .el-641545 span, .el-641545 u, .el-833125 span, .el-833125 u, .el-850678 span, .el-850678 u, .el-863402 span, .el-863402 u, .el-906124 span, .el-906124 u, .el-990052 span, .el-990052 u){ font-size:14px !important; line-height:1.30 !important; }
-#femiulga-pl-art-root :is(.el-700611){ background-color:#757575 !important; background-image:none !important; }
 
 #femiulga-pl-art-root :is(.el-351295 p, .el-433116 p, .el-485667 p, .el-642034 p, .el-815705 p){ line-height:1.50 !important; }
 #femiulga-pl-art-root :is(.el-351295 span, .el-351295 u, .el-419949 span, .el-419949 u, .el-433116 span, .el-433116 u, .el-445434 span, .el-445434 u, .el-467564 span, .el-467564 u, .el-485667 span, .el-485667 u, .el-546726 span, .el-546726 u, .el-642034 span, .el-642034 u, .el-647139 span, .el-647139 u, .el-718003 span, .el-718003 u, .el-815705 span, .el-815705 u, .el-823555 span, .el-823555 u){ font-size:14px !important; line-height:1.30 !important; }
@@ -1624,8 +1623,6 @@
 #femiulga-pl-art-root#femiulga-pl-art-root p.fmu-dateline{ margin:0 !important; }
 
 #femiulga-pl-art-root#femiulga-pl-art-root img[src*="/adv_014."]{ max-width:min(100%, 340px) !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
-
-#femiulga-pl-art-root#femiulga-pl-art-root section.el-700611{ margin-top:16px !important; }
 
 #femiulga-pl-art-root#femiulga-pl-art-root .el-38344{ flex-direction:column !important; align-items:center !important; justify-content:center !important; }
 #femiulga-pl-art-root#femiulga-pl-art-root :is(.cbox-38344-0, .cbox-38344-1){ width:auto !important; max-width:100% !important; flex:0 0 auto !important; justify-content:center !important; }
