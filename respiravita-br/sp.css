@@ -1331,8 +1331,8 @@ background: linear-gradient(180deg, rgba(238,247,255,1) 0%, rgba(255,255,255,0) 
 #respiravita-br-sp-root#respiravita-br-sp-root .el-524096 .faq-header{ padding-left:10px !important; padding-right:8px !important; }
 #respiravita-br-sp-root#respiravita-br-sp-root .el-524096 .faq-title{ font-size:17px !important; }
 
-#respiravita-br-sp-root#respiravita-br-sp-root :is(.el-834936, .el-590110) img{ display:block !important; max-width:420px !important; margin-left:auto !important; margin-right:auto !important; }
-#respiravita-br-sp-root#respiravita-br-sp-root .el-144294 img{ display:block !important; max-width:315px !important; margin-left:auto !important; margin-right:auto !important; }
+#respiravita-br-sp-root#respiravita-br-sp-root :is(.el-834936, .el-590110, .el-144294) img{ display:block !important; max-height:max(420px, (960px - 100vw) * 999) !important;
+  width:auto !important; max-width:100% !important; margin-left:auto !important; margin-right:auto !important; }
 
 #respiravita-br-sp-root#respiravita-br-sp-root :is(.el-167074, .el-603963) .btn-sub-headline span{ font-size:15px !important; line-height:1.25 !important; }
 #respiravita-br-sp-root#respiravita-br-sp-root :is(.el-167074, .el-603963) .btn-sub-headline{ margin-top:2px !important; }
@@ -1355,3 +1355,6 @@ background: linear-gradient(180deg, rgba(238,247,255,1) 0%, rgba(255,255,255,0) 
 #respiravita-br-sp-root#respiravita-br-sp-root .el-204418{ padding-left:10px !important; box-sizing:border-box !important; }
 
 #respiravita-br-sp-root#respiravita-br-sp-root .el-146905 video{ border:2px solid #000 !important; box-sizing:border-box !important; }
+
+#respiravita-br-sp-root#respiravita-br-sp-root .section_wrapper_258964 :is(img[src*="/sp_021."], img[src*="/sp_022."]){ max-width:56px !important; height:auto !important;
+  margin-left:auto !important; margin-right:auto !important; display:block !important; }
