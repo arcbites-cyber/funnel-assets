@@ -1,0 +1,795 @@
+
+		@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2)format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2)format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2)format('woff2');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2)format('woff2');unicode-range:U+0302-0303,U+0305,U+0307-0308,U+0310,U+0312,U+0315,U+031A,U+0326-0327,U+032C,U+032F-0330,U+0332-0333,U+0338,U+033A,U+0346,U+034D,U+0391-03A1,U+03A3-03A9,U+03B1-03C9,U+03D1,U+03D5-03D6,U+03F0-03F1,U+03F4-03F5,U+2016-2017,U+2034-2038,U+203C,U+2040,U+2043,U+2047,U+2050,U+2057,U+205F,U+2070-2071,U+2074-209F,U+20D0-20DC,U+20E1,U+20E5-20EF,U+2100-2112,U+2114-2115,U+2117-2121,U+2123-214F,U+2190,U+2192,U+2194-21AE,U+21B0-21E5,U+21F1-21F2,U+21F4-2211,U+2213-2214,U+2216-22FF,U+2308-230B,U+2310,U+2319,U+231C-2321,U+2336-237A,U+237C,U+2395,U+239B-23B7,U+23D0,U+23DC-23E1,U+2474-2475,U+25AF,U+25B3,U+25B7,U+25BD,U+25C1,U+25CA,U+25CC,U+25FB,U+266D-266F,U+27C0-27FF,U+2900-2AFF,U+2B0E-2B11,U+2B30-2B4C,U+2BFE,U+3030,U+FF5B,U+FF5D,U+1D400-1D7FF,U+1EE00-1EEFF}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2)format('woff2');unicode-range:U+0001-000C,U+000E-001F,U+007F-009F,U+20DD-20E0,U+20E2-20E4,U+2150-218F,U+2190,U+2192,U+2194-2199,U+21AF,U+21E6-21F0,U+21F3,U+2218-2219,U+2299,U+22C4-22C6,U+2300-243F,U+2440-244A,U+2460-24FF,U+25A0-27BF,U+2800-28FF,U+2921-2922,U+2981,U+29BF,U+29EB,U+2B00-2BFF,U+4DC0-4DFF,U+FFF9-FFFB,U+10140-1018E,U+10190-1019C,U+101A0,U+101D0-101FD,U+102E0-102FB,U+10E60-10E7E,U+1D2C0-1D2D3,U+1D2E0-1D37F,U+1F000-1F0FF,U+1F100-1F1AE,U+1F1E6-1F1FF,U+1F30D-1F30F,U+1F315,U+1F31C,U+1F31E,U+1F320-1F32C,U+1F336,U+1F378,U+1F37D,U+1F382,U+1F393-1F39F,U+1F3A7-1F3A8,U+1F3AC-1F3AF,U+1F3C2,U+1F3C4-1F3C6,U+1F3CA-1F3CE,U+1F3D4-1F3E0,U+1F3ED,U+1F3F1-1F3F3,U+1F3F5-1F3F7,U+1F408,U+1F415,U+1F41F,U+1F426,U+1F43F,U+1F441-1F442,U+1F444,U+1F446-1F449,U+1F44C-1F44E,U+1F453,U+1F46A,U+1F47D,U+1F4A3,U+1F4B0,U+1F4B3,U+1F4B9,U+1F4BB,U+1F4BF,U+1F4C8-1F4CB,U+1F4D6,U+1F4DA,U+1F4DF,U+1F4E3-1F4E6,U+1F4EA-1F4ED,U+1F4F7,U+1F4F9-1F4FB,U+1F4FD-1F4FE,U+1F503,U+1F507-1F50B,U+1F50D,U+1F512-1F513,U+1F53E-1F54A,U+1F54F-1F5FA,U+1F610,U+1F650-1F67F,U+1F687,U+1F68D,U+1F691,U+1F694,U+1F698,U+1F6AD,U+1F6B2,U+1F6B9-1F6BA,U+1F6BC,U+1F6C6-1F6CF,U+1F6D3-1F6D7,U+1F6E0-1F6EA,U+1F6F0-1F6F3,U+1F6F7-1F6FC,U+1F700-1F80B,U+1F810-1F847,U+1F850-1F859,U+1F860-1F887,U+1F890-1F8AD,U+1F8B0-1F8BB,U+1F8C0-1F8C1,U+1F8D0-1F8D8,U+1F900-1F90B,U+1F93B,U+1F946,U+1F984,U+1F996,U+1F9E9,U+1FA00-1FA6F,U+1FA70-1FA7C,U+1FA80-1FAC6,U+1FAC8,U+1FACC-1FADD,U+1FADF-1FAEB,U+1FAEF-1FAFA,U+1FB00-1FBFF}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2)format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:open sans;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2)format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2)format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2)format('woff2');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2)format('woff2');unicode-range:U+0302-0303,U+0305,U+0307-0308,U+0310,U+0312,U+0315,U+031A,U+0326-0327,U+032C,U+032F-0330,U+0332-0333,U+0338,U+033A,U+0346,U+034D,U+0391-03A1,U+03A3-03A9,U+03B1-03C9,U+03D1,U+03D5-03D6,U+03F0-03F1,U+03F4-03F5,U+2016-2017,U+2034-2038,U+203C,U+2040,U+2043,U+2047,U+2050,U+2057,U+205F,U+2070-2071,U+2074-209F,U+20D0-20DC,U+20E1,U+20E5-20EF,U+2100-2112,U+2114-2115,U+2117-2121,U+2123-214F,U+2190,U+2192,U+2194-21AE,U+21B0-21E5,U+21F1-21F2,U+21F4-2211,U+2213-2214,U+2216-22FF,U+2308-230B,U+2310,U+2319,U+231C-2321,U+2336-237A,U+237C,U+2395,U+239B-23B7,U+23D0,U+23DC-23E1,U+2474-2475,U+25AF,U+25B3,U+25B7,U+25BD,U+25C1,U+25CA,U+25CC,U+25FB,U+266D-266F,U+27C0-27FF,U+2900-2AFF,U+2B0E-2B11,U+2B30-2B4C,U+2BFE,U+3030,U+FF5B,U+FF5D,U+1D400-1D7FF,U+1EE00-1EEFF}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2)format('woff2');unicode-range:U+0001-000C,U+000E-001F,U+007F-009F,U+20DD-20E0,U+20E2-20E4,U+2150-218F,U+2190,U+2192,U+2194-2199,U+21AF,U+21E6-21F0,U+21F3,U+2218-2219,U+2299,U+22C4-22C6,U+2300-243F,U+2440-244A,U+2460-24FF,U+25A0-27BF,U+2800-28FF,U+2921-2922,U+2981,U+29BF,U+29EB,U+2B00-2BFF,U+4DC0-4DFF,U+FFF9-FFFB,U+10140-1018E,U+10190-1019C,U+101A0,U+101D0-101FD,U+102E0-102FB,U+10E60-10E7E,U+1D2C0-1D2D3,U+1D2E0-1D37F,U+1F000-1F0FF,U+1F100-1F1AE,U+1F1E6-1F1FF,U+1F30D-1F30F,U+1F315,U+1F31C,U+1F31E,U+1F320-1F32C,U+1F336,U+1F378,U+1F37D,U+1F382,U+1F393-1F39F,U+1F3A7-1F3A8,U+1F3AC-1F3AF,U+1F3C2,U+1F3C4-1F3C6,U+1F3CA-1F3CE,U+1F3D4-1F3E0,U+1F3ED,U+1F3F1-1F3F3,U+1F3F5-1F3F7,U+1F408,U+1F415,U+1F41F,U+1F426,U+1F43F,U+1F441-1F442,U+1F444,U+1F446-1F449,U+1F44C-1F44E,U+1F453,U+1F46A,U+1F47D,U+1F4A3,U+1F4B0,U+1F4B3,U+1F4B9,U+1F4BB,U+1F4BF,U+1F4C8-1F4CB,U+1F4D6,U+1F4DA,U+1F4DF,U+1F4E3-1F4E6,U+1F4EA-1F4ED,U+1F4F7,U+1F4F9-1F4FB,U+1F4FD-1F4FE,U+1F503,U+1F507-1F50B,U+1F50D,U+1F512-1F513,U+1F53E-1F54A,U+1F54F-1F5FA,U+1F610,U+1F650-1F67F,U+1F687,U+1F68D,U+1F691,U+1F694,U+1F698,U+1F6AD,U+1F6B2,U+1F6B9-1F6BA,U+1F6BC,U+1F6C6-1F6CF,U+1F6D3-1F6D7,U+1F6E0-1F6EA,U+1F6F0-1F6F3,U+1F6F7-1F6FC,U+1F700-1F80B,U+1F810-1F847,U+1F850-1F859,U+1F860-1F887,U+1F890-1F8AD,U+1F8B0-1F8BB,U+1F8C0-1F8C1,U+1F8D0-1F8D8,U+1F900-1F90B,U+1F93B,U+1F946,U+1F984,U+1F996,U+1F9E9,U+1FA00-1FA6F,U+1FA70-1FA7C,U+1FA80-1FAC6,U+1FAC8,U+1FACC-1FADD,U+1FADF-1FAEB,U+1FAEF-1FAFA,U+1FB00-1FBFF}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2)format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:open sans;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2)format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2)format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2)format('woff2');unicode-range:U+0302-0303,U+0305,U+0307-0308,U+0310,U+0312,U+0315,U+031A,U+0326-0327,U+032C,U+032F-0330,U+0332-0333,U+0338,U+033A,U+0346,U+034D,U+0391-03A1,U+03A3-03A9,U+03B1-03C9,U+03D1,U+03D5-03D6,U+03F0-03F1,U+03F4-03F5,U+2016-2017,U+2034-2038,U+203C,U+2040,U+2043,U+2047,U+2050,U+2057,U+205F,U+2070-2071,U+2074-209F,U+20D0-20DC,U+20E1,U+20E5-20EF,U+2100-2112,U+2114-2115,U+2117-2121,U+2123-214F,U+2190,U+2192,U+2194-21AE,U+21B0-21E5,U+21F1-21F2,U+21F4-2211,U+2213-2214,U+2216-22FF,U+2308-230B,U+2310,U+2319,U+231C-2321,U+2336-237A,U+237C,U+2395,U+239B-23B7,U+23D0,U+23DC-23E1,U+2474-2475,U+25AF,U+25B3,U+25B7,U+25BD,U+25C1,U+25CA,U+25CC,U+25FB,U+266D-266F,U+27C0-27FF,U+2900-2AFF,U+2B0E-2B11,U+2B30-2B4C,U+2BFE,U+3030,U+FF5B,U+FF5D,U+1D400-1D7FF,U+1EE00-1EEFF}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2)format('woff2');unicode-range:U+0001-000C,U+000E-001F,U+007F-009F,U+20DD-20E0,U+20E2-20E4,U+2150-218F,U+2190,U+2192,U+2194-2199,U+21AF,U+21E6-21F0,U+21F3,U+2218-2219,U+2299,U+22C4-22C6,U+2300-243F,U+2440-244A,U+2460-24FF,U+25A0-27BF,U+2800-28FF,U+2921-2922,U+2981,U+29BF,U+29EB,U+2B00-2BFF,U+4DC0-4DFF,U+FFF9-FFFB,U+10140-1018E,U+10190-1019C,U+101A0,U+101D0-101FD,U+102E0-102FB,U+10E60-10E7E,U+1D2C0-1D2D3,U+1D2E0-1D37F,U+1F000-1F0FF,U+1F100-1F1AE,U+1F1E6-1F1FF,U+1F30D-1F30F,U+1F315,U+1F31C,U+1F31E,U+1F320-1F32C,U+1F336,U+1F378,U+1F37D,U+1F382,U+1F393-1F39F,U+1F3A7-1F3A8,U+1F3AC-1F3AF,U+1F3C2,U+1F3C4-1F3C6,U+1F3CA-1F3CE,U+1F3D4-1F3E0,U+1F3ED,U+1F3F1-1F3F3,U+1F3F5-1F3F7,U+1F408,U+1F415,U+1F41F,U+1F426,U+1F43F,U+1F441-1F442,U+1F444,U+1F446-1F449,U+1F44C-1F44E,U+1F453,U+1F46A,U+1F47D,U+1F4A3,U+1F4B0,U+1F4B3,U+1F4B9,U+1F4BB,U+1F4BF,U+1F4C8-1F4CB,U+1F4D6,U+1F4DA,U+1F4DF,U+1F4E3-1F4E6,U+1F4EA-1F4ED,U+1F4F7,U+1F4F9-1F4FB,U+1F4FD-1F4FE,U+1F503,U+1F507-1F50B,U+1F50D,U+1F512-1F513,U+1F53E-1F54A,U+1F54F-1F5FA,U+1F610,U+1F650-1F67F,U+1F687,U+1F68D,U+1F691,U+1F694,U+1F698,U+1F6AD,U+1F6B2,U+1F6B9-1F6BA,U+1F6BC,U+1F6C6-1F6CF,U+1F6D3-1F6D7,U+1F6E0-1F6EA,U+1F6F0-1F6F3,U+1F6F7-1F6FC,U+1F700-1F80B,U+1F810-1F847,U+1F850-1F859,U+1F860-1F887,U+1F890-1F8AD,U+1F8B0-1F8BB,U+1F8C0-1F8C1,U+1F8D0-1F8D8,U+1F900-1F90B,U+1F93B,U+1F946,U+1F984,U+1F996,U+1F9E9,U+1FA00-1FA6F,U+1FA70-1FA7C,U+1FA80-1FAC6,U+1FAC8,U+1FACC-1FADD,U+1FADF-1FAEB,U+1FAEF-1FAFA,U+1FB00-1FBFF}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2)format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:roboto;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2)format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2)format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2)format('woff2');unicode-range:U+0302-0303,U+0305,U+0307-0308,U+0310,U+0312,U+0315,U+031A,U+0326-0327,U+032C,U+032F-0330,U+0332-0333,U+0338,U+033A,U+0346,U+034D,U+0391-03A1,U+03A3-03A9,U+03B1-03C9,U+03D1,U+03D5-03D6,U+03F0-03F1,U+03F4-03F5,U+2016-2017,U+2034-2038,U+203C,U+2040,U+2043,U+2047,U+2050,U+2057,U+205F,U+2070-2071,U+2074-209F,U+20D0-20DC,U+20E1,U+20E5-20EF,U+2100-2112,U+2114-2115,U+2117-2121,U+2123-214F,U+2190,U+2192,U+2194-21AE,U+21B0-21E5,U+21F1-21F2,U+21F4-2211,U+2213-2214,U+2216-22FF,U+2308-230B,U+2310,U+2319,U+231C-2321,U+2336-237A,U+237C,U+2395,U+239B-23B7,U+23D0,U+23DC-23E1,U+2474-2475,U+25AF,U+25B3,U+25B7,U+25BD,U+25C1,U+25CA,U+25CC,U+25FB,U+266D-266F,U+27C0-27FF,U+2900-2AFF,U+2B0E-2B11,U+2B30-2B4C,U+2BFE,U+3030,U+FF5B,U+FF5D,U+1D400-1D7FF,U+1EE00-1EEFF}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2)format('woff2');unicode-range:U+0001-000C,U+000E-001F,U+007F-009F,U+20DD-20E0,U+20E2-20E4,U+2150-218F,U+2190,U+2192,U+2194-2199,U+21AF,U+21E6-21F0,U+21F3,U+2218-2219,U+2299,U+22C4-22C6,U+2300-243F,U+2440-244A,U+2460-24FF,U+25A0-27BF,U+2800-28FF,U+2921-2922,U+2981,U+29BF,U+29EB,U+2B00-2BFF,U+4DC0-4DFF,U+FFF9-FFFB,U+10140-1018E,U+10190-1019C,U+101A0,U+101D0-101FD,U+102E0-102FB,U+10E60-10E7E,U+1D2C0-1D2D3,U+1D2E0-1D37F,U+1F000-1F0FF,U+1F100-1F1AE,U+1F1E6-1F1FF,U+1F30D-1F30F,U+1F315,U+1F31C,U+1F31E,U+1F320-1F32C,U+1F336,U+1F378,U+1F37D,U+1F382,U+1F393-1F39F,U+1F3A7-1F3A8,U+1F3AC-1F3AF,U+1F3C2,U+1F3C4-1F3C6,U+1F3CA-1F3CE,U+1F3D4-1F3E0,U+1F3ED,U+1F3F1-1F3F3,U+1F3F5-1F3F7,U+1F408,U+1F415,U+1F41F,U+1F426,U+1F43F,U+1F441-1F442,U+1F444,U+1F446-1F449,U+1F44C-1F44E,U+1F453,U+1F46A,U+1F47D,U+1F4A3,U+1F4B0,U+1F4B3,U+1F4B9,U+1F4BB,U+1F4BF,U+1F4C8-1F4CB,U+1F4D6,U+1F4DA,U+1F4DF,U+1F4E3-1F4E6,U+1F4EA-1F4ED,U+1F4F7,U+1F4F9-1F4FB,U+1F4FD-1F4FE,U+1F503,U+1F507-1F50B,U+1F50D,U+1F512-1F513,U+1F53E-1F54A,U+1F54F-1F5FA,U+1F610,U+1F650-1F67F,U+1F687,U+1F68D,U+1F691,U+1F694,U+1F698,U+1F6AD,U+1F6B2,U+1F6B9-1F6BA,U+1F6BC,U+1F6C6-1F6CF,U+1F6D3-1F6D7,U+1F6E0-1F6EA,U+1F6F0-1F6F3,U+1F6F7-1F6FC,U+1F700-1F80B,U+1F810-1F847,U+1F850-1F859,U+1F860-1F887,U+1F890-1F8AD,U+1F8B0-1F8BB,U+1F8C0-1F8C1,U+1F8D0-1F8D8,U+1F900-1F90B,U+1F93B,U+1F946,U+1F984,U+1F996,U+1F9E9,U+1FA00-1FA6F,U+1FA70-1FA7C,U+1FA80-1FAC6,U+1FAC8,U+1FACC-1FADD,U+1FADF-1FAEB,U+1FAEF-1FAFA,U+1FB00-1FBFF}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2)format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:roboto;font-style:normal;font-weight:700;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+    
+:where(#ledkraft-se-art-root) .main-1598285{ color:#252A32;font-family:Roboto;font-size:14px;font-weight:400;font-style:normal;border-top:none;border-left:0px solid transparent;border-right:none;border-bottom:none;border-radius:0px 0px 0px 0px;border-color:transparent;padding:0px 0px 0px 0px;background-color:#fff;background-repeat:no-repeat; }:where(#ledkraft-se-art-root) .section_wrapper_338102 .section_row{ max-width:1170px; }:where(#ledkraft-se-art-root) .section_wrapper_338102{ width:100%; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_338102{ width:100%; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_338102{ width:100%; }}@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_338102 .section_row{ max-width:1170px; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_338102 .section_row{ max-width:1170px; }}:where(#ledkraft-se-art-root) .el-338102{ display:inherit;background-color:#313131; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-338102{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-338102{ display:inherit; }}:where(#ledkraft-se-art-root) .el-338102 .el-414738.section_row{ width:calc(100% - 0px); }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-338102 .el-414738.section_row{ width:calc(100% - 0px); }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-338102 .el-414738.section_row{ width:calc(100% - 0px); }}:where(#ledkraft-se-art-root) .el-338102 .el-414738.section_row{ display:inherit;color:#303030;font-size:14px;text-align:initial;font-weight:400;font-style:normal;border-top:0px solid transparent;border-left:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-radius:0px 0px 0px 0px;border-color:transparent;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;box-shadow:none; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-338102 .el-414738.section_row{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-338102 .el-414738.section_row{ display:inherit; }}:where(#ledkraft-se-art-root) .el-414738 .el-618807{ display:inherit;margin:0px 0px 0px 0px; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-414738 .el-618807{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-414738 .el-618807{ display:inherit; }}:where(#ledkraft-se-art-root) .section_wrapper_800898 .section_row{ max-width:1170px; }:where(#ledkraft-se-art-root) .section_wrapper_800898{ width:100%; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_800898{ width:100%; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_800898{ width:100%; }}@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_800898 .section_row{ max-width:1170px; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_800898 .section_row{ max-width:1170px; }}:where(#ledkraft-se-art-root) .el-800898{ display:inherit; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-800898{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-800898{ display:inherit; }}:where(#ledkraft-se-art-root) .el-800898 .el-526672.section_row{ width:calc(100% - 20px); }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-800898 .el-526672.section_row{ width:calc(100% - 20px); }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-800898 .el-526672.section_row{ width:calc(100% - 20px); }}:where(#ledkraft-se-art-root) .el-800898 .el-526672.section_row{ display:inherit;color:#303030;font-size:14px;text-align:initial;font-weight:400;font-style:normal;border-top:0.5px solid transparent;border-left:0.5px solid transparent;border-right:0.5px solid transparent;border-bottom:0.5px solid transparent;border-radius:8px 8px 8px 8px;margin:20px 10px 20px 10px;padding:0px 0px 0px 0px;background-repeat:no-repeat;box-shadow:none;position:sticky;z-index:10;bottom:0px; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-800898 .el-526672.section_row{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-800898 .el-526672.section_row{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-953139.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 10px 10px 10px;padding:10px 10px 10px 10px;background-color:#FEFBD8;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-953139.container{ align-items:center; }:where(#ledkraft-se-art-root) .el-526672 .el-953139.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-953139.container  > .container-box:nth-child(1){
+      width: 44px;
+						    min-width: 44px;
+						    max-width: 44px;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-953139.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-953139.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-953139.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-953139 .el-427919{ display:inherit;margin:0px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-953139 .el-427919{ align-items:flex-start; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-953139 .el-427919{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-953139 .el-427919{ display:inherit; }}:where(#ledkraft-se-art-root) .el-953139 .el-427919 img{ box-shadow:none; }:where(#ledkraft-se-art-root) .el-953139 .el-427919 img{ width:31px;height:29px; }:where(#ledkraft-se-art-root) .el-953139 .el-336563{ display:inherit;margin:0px 0px 0px 0px; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-953139 .el-336563{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-953139 .el-336563{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-489132{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-489132{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-489132{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-526672 .el-489132 .paragraph{ display:inherit;font-family:Open Sans;font-size:32px;text-align:left;font-weight:400;font-style:normal;line-height:1.3;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-489132 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-489132 .paragraph{ display:inherit;font-size:27px; }}:where(#ledkraft-se-art-root) .el-526672 .el-346451{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-346451{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-346451{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-526672 .el-346451 .paragraph{ display:inherit;font-family:Open Sans;font-size:22px;text-align:left;font-weight:400;font-style:normal;border-top:nullpx solid transparent;border-left:nullpx solid transparent;border-right:nullpx solid transparent;border-bottom:1px solid #020817;line-height:1.35;margin:10px 15px 0px 15px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-346451 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-346451 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-124032.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-124032.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-124032.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-124032.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-124032 .el-921798{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-124032 .el-921798{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-124032 .el-921798{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-124032 .el-921798{ display:inherit; }}:where(#ledkraft-se-art-root) .el-124032 .el-921798 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-124032 .el-921798 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-124032 .el-805920{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-124032 .el-805920{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-124032 .el-805920{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-124032 .el-805920 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-124032 .el-805920 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-124032 .el-805920 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-329298.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-329298.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-329298.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-329298.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-329298 .el-85695{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-329298 .el-85695{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-329298 .el-85695{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-329298 .el-85695{ display:inherit; }}:where(#ledkraft-se-art-root) .el-329298 .el-85695 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-329298 .el-85695 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-329298 .el-704749{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-329298 .el-704749{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-329298 .el-704749{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-329298 .el-704749 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-329298 .el-704749 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-329298 .el-704749 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-425688.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-425688.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-425688.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-425688.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-425688 .el-163556{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-425688 .el-163556{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-425688 .el-163556{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-425688 .el-163556{ display:inherit; }}:where(#ledkraft-se-art-root) .el-425688 .el-163556 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-425688 .el-163556 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-425688 .el-677111{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-425688 .el-677111{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-425688 .el-677111{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-425688 .el-677111 .paragraph{ display:inherit;font-family:Open Sans;font-size:19px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-425688 .el-677111 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-425688 .el-677111 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-89792.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-89792.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-89792.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-89792.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-89792 .el-814863{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-89792 .el-814863{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-89792 .el-814863{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-89792 .el-814863{ display:inherit; }}:where(#ledkraft-se-art-root) .el-89792 .el-814863 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-89792 .el-814863 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-89792 .el-585366{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-89792 .el-585366{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-89792 .el-585366{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-89792 .el-585366 .paragraph{ display:inherit;font-family:Open Sans;font-size:19px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-89792 .el-585366 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-89792 .el-585366 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-447305.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-447305.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-447305.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-447305.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-447305 .el-468310{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-447305 .el-468310{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-447305 .el-468310{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-447305 .el-468310{ display:inherit; }}:where(#ledkraft-se-art-root) .el-447305 .el-468310 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-447305 .el-468310 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-447305 .el-186993{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-447305 .el-186993{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-447305 .el-186993{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-447305 .el-186993 .paragraph{ display:inherit;font-family:Open Sans;font-size:22px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-447305 .el-186993 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-447305 .el-186993 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-666945.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-666945.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-666945.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-666945.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-666945 .el-770633{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-666945 .el-770633{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-666945 .el-770633{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-666945 .el-770633{ display:inherit; }}:where(#ledkraft-se-art-root) .el-666945 .el-770633 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-666945 .el-770633 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-666945 .el-746020{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-666945 .el-746020{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-666945 .el-746020{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-666945 .el-746020 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-666945 .el-746020 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-666945 .el-746020 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-690231.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-690231.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-690231.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-690231.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-690231.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-690231.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-690231.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-690231.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-690231.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-690231.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }}:where(#ledkraft-se-art-root) .el-690231 .el-331115.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;border-top:2px dashed #1D1D1DFF;border-left:2px dashed #1D1D1DFF;border-right:2px dashed #1D1D1DFF;border-bottom:2px dashed #1D1D1DFF;margin:10px 0px 10px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-690231 .el-331115.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-690231 .el-331115.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-690231 .el-331115.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-331115 .el-836057{ display:inherit;margin:20px 20px 20px 20px; }:where(#ledkraft-se-art-root) .el-331115 .el-836057{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-836057{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-836057{ display:inherit; }}:where(#ledkraft-se-art-root) .el-331115 .el-836057 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-331115 .el-836057 img{ width:368px;height:381px; }:where(#ledkraft-se-art-root) .el-331115 .el-329223{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-329223{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-329223{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-331115 .el-329223 .paragraph{ display:inherit;font-family:Open Sans;font-size:16px;text-align:center;font-weight:400;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-329223 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-329223 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-331115 .el-153404{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-153404{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-153404{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-331115 .el-153404 .headline{ display:inherit;font-family:Open Sans;font-size:20px;text-align:center;font-weight:bold;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:5px 5px 5px 5px;box-shadow:none; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-153404 .headline{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-153404 .headline{ display:inherit; }}:where(#ledkraft-se-art-root) .el-331115 .el-9763{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-9763{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-9763{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-331115 .el-9763 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:center;font-weight:400;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-9763 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-9763 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-331115 .el-912255.container{ display:inherit;font-size:18px;text-align:center;font-weight:bold;font-style:normal;border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:10px 10px 10px 10px;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-color:#0380ED;box-shadow:transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-331115 .el-912255.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-331115 .el-912255.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-331115 .el-912255.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-912255.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-912255.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-912255 .el-638053 .btn{ display:inherit;color:#F6F9FE;font-size:10px;text-align:center;font-weight:400;font-style:normal;margin:0px 20px 0px 20px;padding:15px 30px 15px 30px;background-color:#0380ED;box-shadow:transparent 42.261826174069945px 90.63077870366499px 0px 100px , transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-912255 .el-638053{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-912255 .el-638053 .btn{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-912255 .el-638053 .btn{ display:inherit;font-size:18px; }}:where(#ledkraft-se-art-root) .el-912255 .el-638053 .btn-sub-headline{ color:#F6F9FE;font-size:10px;text-align:center;font-weight:400;font-style:normal;margin-top:5px; }:where(#ledkraft-se-art-root) .el-912255 .el-638053 .btn-headline{ font-family:Open Sans;font-size:18px;text-align:center;font-weight:bold;font-style:normal; }@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-912255 .el-638053 .btn-headline{ font-size:18px; }}:where(#ledkraft-se-art-root) .el-331115 .el-156932{ display:inherit;margin:10px 0px 0px 0px;text-align:left; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-156932{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-156932{ display:inherit; }}:where(#ledkraft-se-art-root) .el-331115 .el-436819{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-436819{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-436819{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-331115 .el-436819 .paragraph{ display:inherit;font-family:Open Sans;font-size:16px;text-align:center;font-weight:400;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-436819 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-436819 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-331115 .el-812177{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-812177{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-812177{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-331115 .el-812177 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:center;font-weight:400;font-style:italic;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-331115 .el-812177 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-331115 .el-812177 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-557151.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-557151.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-557151.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-557151.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-557151 .el-500983{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-557151 .el-500983{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-557151 .el-500983{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-557151 .el-500983{ display:inherit; }}:where(#ledkraft-se-art-root) .el-557151 .el-500983 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-557151 .el-500983 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-557151 .el-749119{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-557151 .el-749119{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-557151 .el-749119{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-557151 .el-749119 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-557151 .el-749119 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-557151 .el-749119 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-936016.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-936016.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-936016.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-936016.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-936016 .el-912213{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-936016 .el-912213{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-936016 .el-912213{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-936016 .el-912213{ display:inherit; }}:where(#ledkraft-se-art-root) .el-936016 .el-912213 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-936016 .el-912213 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-936016 .el-415165{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-936016 .el-415165{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-936016 .el-415165{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-936016 .el-415165 .paragraph{ display:inherit;font-size:18px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-936016 .el-415165 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-936016 .el-415165 .paragraph{ display:inherit;font-family:Open Sans; }}:where(#ledkraft-se-art-root) .el-526672 .el-536092.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-536092.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-536092.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-536092.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-536092 .el-665221{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-536092 .el-665221{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-536092 .el-665221{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-536092 .el-665221{ display:inherit; }}:where(#ledkraft-se-art-root) .el-536092 .el-665221 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-536092 .el-665221 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-536092 .el-136566{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-536092 .el-136566{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-536092 .el-136566{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-536092 .el-136566 .paragraph{ display:inherit;font-size:18px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-536092 .el-136566 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-536092 .el-136566 .paragraph{ display:inherit;font-family:Open Sans; }}:where(#ledkraft-se-art-root) .el-526672 .el-804573.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-804573.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-804573.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-804573.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-804573 .el-339540{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-804573 .el-339540{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-804573 .el-339540{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-804573 .el-339540{ display:inherit; }}:where(#ledkraft-se-art-root) .el-804573 .el-339540 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-804573 .el-339540 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-804573 .el-413573{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-804573 .el-413573{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-804573 .el-413573{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-804573 .el-413573 .paragraph{ display:inherit;font-size:18px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:10px 10px 0px 10px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-804573 .el-413573 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-804573 .el-413573 .paragraph{ display:inherit;font-family:Open Sans; }}:where(#ledkraft-se-art-root) .el-526672 .el-447077.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-526672 .el-447077.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-526672 .el-447077.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-447077.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-447077.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-447077.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-447077.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-447077.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-526672 .el-447077.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-526672 .el-447077.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }}:where(#ledkraft-se-art-root) .el-447077 .el-86547.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;border-top:2px dashed #1D1D1DFF;border-left:2px dashed #1D1D1DFF;border-right:2px dashed #1D1D1DFF;border-bottom:2px dashed #1D1D1DFF;margin:10px 0px 10px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-447077 .el-86547.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-447077 .el-86547.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container  > .container-box:nth-child(1){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-447077 .el-86547.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-86547 .el-862547{ display:inherit;margin:20px 20px 20px 20px; }:where(#ledkraft-se-art-root) .el-86547 .el-862547{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-862547{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-862547{ display:inherit; }}:where(#ledkraft-se-art-root) .el-86547 .el-862547 img{ border-radius:8px 8px 8px 8px;box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-86547 .el-862547 img{ width:368px;height:381px; }:where(#ledkraft-se-art-root) .el-86547 .el-54815{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-54815{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-54815{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-86547 .el-54815 .paragraph{ display:inherit;font-family:Open Sans;font-size:16px;text-align:center;font-weight:400;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-54815 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-54815 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-86547 .el-772630{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-772630{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-772630{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-86547 .el-772630 .headline{ display:inherit;font-family:Open Sans;font-size:20px;text-align:center;font-weight:bold;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:5px 5px 5px 5px;box-shadow:none; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-772630 .headline{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-772630 .headline{ display:inherit; }}:where(#ledkraft-se-art-root) .el-86547 .el-45304{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-45304{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-45304{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-86547 .el-45304 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:center;font-weight:400;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-45304 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-45304 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-86547 .el-703950.container{ display:inherit;font-size:18px;text-align:center;font-weight:bold;font-style:normal;border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:10px 10px 10px 10px;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-color:#0380ED;box-shadow:transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-86547 .el-703950.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-86547 .el-703950.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-86547 .el-703950.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-703950.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-703950.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-703950 .el-811812 .btn{ display:inherit;color:#F6F9FE;font-size:10px;text-align:center;font-weight:400;font-style:normal;margin:0px 20px 0px 20px;padding:15px 30px 15px 30px;background-color:#0380ED;box-shadow:transparent 42.261826174069945px 90.63077870366499px 0px 100px , transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-703950 .el-811812{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-703950 .el-811812 .btn{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-703950 .el-811812 .btn{ display:inherit;font-size:18px; }}:where(#ledkraft-se-art-root) .el-703950 .el-811812 .btn-sub-headline{ color:#F6F9FE;font-size:10px;text-align:center;font-weight:400;font-style:normal;margin-top:5px; }:where(#ledkraft-se-art-root) .el-703950 .el-811812 .btn-headline{ font-family:Open Sans;font-size:18px;text-align:center;font-weight:bold;font-style:normal; }@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-703950 .el-811812 .btn-headline{ font-size:18px; }}:where(#ledkraft-se-art-root) .el-86547 .el-536070{ display:inherit;margin:10px 0px 0px 0px;text-align:left; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-536070{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-536070{ display:inherit; }}:where(#ledkraft-se-art-root) .el-86547 .el-83491{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-83491{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-83491{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-86547 .el-83491 .paragraph{ display:inherit;font-family:Open Sans;font-size:16px;text-align:center;font-weight:400;font-style:normal;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-83491 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-83491 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-86547 .el-811333{ justify-content:center;width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-811333{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-811333{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-86547 .el-811333 .paragraph{ display:inherit;font-family:Open Sans;font-size:18px;text-align:center;font-weight:400;font-style:italic;line-height:1.5;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-86547 .el-811333 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-86547 .el-811333 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-905700{ display:inherit;margin:10px 0px 0px 0px; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-905700{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-905700{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-905700.form-element .fe-label{ color:#252A32;font-size:14px;text-align:left; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-905700.form-element .fe-label{ font-size:null; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-905700.form-element .fe-label{ font-size:null; }}:where(#ledkraft-se-art-root) .el-526672 .el-905700.form-element .fe-input{ color:#252A32;font-size:14px;text-align:left;font-weight:400;font-style:normal;background-color:null!important; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-905700.form-element .fe-input{ background-color:undefined!important; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-905700.form-element .fe-input{ background-color:undefined!important; }}:where(#ledkraft-se-art-root) .el-526672 .el-905700.form-element .fe-input select{ color:#252A32;font-size:14px;text-align:left;font-weight:400;font-style:normal; }:where(#ledkraft-se-art-root) .el-526672 .el-447080.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 100px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-447080.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-447080.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-447080.container  > .container-box:nth-child(1){
+      width: 10%;
+						    min-width: 10%;
+						    max-width: 10%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-447080.container  > .container-box:nth-child(2){
+      width: 90%;
+						    min-width: 90%;
+						    max-width: 90%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-447080.container{ display:none; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-447080.container{ display:none; }}:where(#ledkraft-se-art-root) .el-447080 .el-416635{ display:inherit;margin:10px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-447080 .el-416635{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-447080 .el-416635{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-447080 .el-416635{ display:inherit; }}:where(#ledkraft-se-art-root) .el-447080 .el-416635 img{ box-shadow:none; }:where(#ledkraft-se-art-root) .el-447080 .el-416635 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-447080 .el-989416{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-447080 .el-989416{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-447080 .el-989416{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-447080 .el-989416 .paragraph{ display:inherit;font-size:15px;text-align:center;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-447080 .el-989416 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-447080 .el-989416 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-508157.container{ display:none;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-508157.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-508157.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-508157.container  > .container-box:nth-child(1){
+      width: 20%;
+						    min-width: 20%;
+						    max-width: 20%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-508157.container  > .container-box:nth-child(2){
+      width: 80%;
+						    min-width: 80%;
+						    max-width: 80%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-508157.container{ display:none; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-508157.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-508157 .el-624004{ display:inherit;margin:10px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-508157 .el-624004{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-508157 .el-624004{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-508157 .el-624004{ display:inherit; }:where(#ledkraft-se-art-root) .el-508157 .el-624004{ align-items:flex-end; }}:where(#ledkraft-se-art-root) .el-508157 .el-624004 img{ box-shadow:none; }:where(#ledkraft-se-art-root) .el-508157 .el-624004 img{ width:52px;height:50px; }:where(#ledkraft-se-art-root) .el-508157 .el-33625{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-508157 .el-33625{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-508157 .el-33625{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-508157 .el-33625 .paragraph{ display:inherit;font-size:15px;text-align:center;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-508157 .el-33625 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-508157 .el-33625 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-510718.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-510718.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-510718.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-510718.container  > .container-box:nth-child(1){
+      width: 30%;
+						    min-width: 30%;
+						    max-width: 30%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-510718.container  > .container-box:nth-child(2){
+      width: 70%;
+						    min-width: 70%;
+						    max-width: 70%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-510718.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-510718.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-510718 .el-527640{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-510718 .el-527640{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-510718 .el-527640{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-510718 .el-527640{ display:inherit; }}:where(#ledkraft-se-art-root) .el-510718 .el-527640 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-510718 .el-527640 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-510718 .el-345270{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-510718 .el-345270{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-510718 .el-345270{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-510718 .el-345270 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-510718 .el-345270 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-510718 .el-345270 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-800814.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-800814.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-800814.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-800814.container  > .container-box:nth-child(1){
+      width: 20%;
+						    min-width: 20%;
+						    max-width: 20%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-800814.container  > .container-box:nth-child(2){
+      width: 80%;
+						    min-width: 80%;
+						    max-width: 80%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-800814.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-800814.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-800814 .el-412474{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-800814 .el-412474{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-800814 .el-412474{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-800814 .el-412474{ display:inherit; }}:where(#ledkraft-se-art-root) .el-800814 .el-412474 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-800814 .el-412474 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-800814 .el-55227{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-800814 .el-55227{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-800814 .el-55227{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-800814 .el-55227 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-800814 .el-55227 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-800814 .el-55227 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-611040.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-611040.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-611040.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-611040.container  > .container-box:nth-child(1){
+      width: 30%;
+						    min-width: 30%;
+						    max-width: 30%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-611040.container  > .container-box:nth-child(2){
+      width: 70%;
+						    min-width: 70%;
+						    max-width: 70%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-611040.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-611040.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-611040 .el-537765{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-611040 .el-537765{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-611040 .el-537765{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-611040 .el-537765{ display:inherit; }}:where(#ledkraft-se-art-root) .el-611040 .el-537765 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-611040 .el-537765 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-611040 .el-625697{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-611040 .el-625697{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-611040 .el-625697{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-611040 .el-625697 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-611040 .el-625697 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-611040 .el-625697 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-174415.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-174415.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-174415.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-174415.container  > .container-box:nth-child(1){
+      width: 20%;
+						    min-width: 20%;
+						    max-width: 20%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-174415.container  > .container-box:nth-child(2){
+      width: 80%;
+						    min-width: 80%;
+						    max-width: 80%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-174415.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-174415.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-174415 .el-117809{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-174415 .el-117809{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-174415 .el-117809{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-174415 .el-117809{ display:inherit; }}:where(#ledkraft-se-art-root) .el-174415 .el-117809 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-174415 .el-117809 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-174415 .el-567122{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-174415 .el-567122{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-174415 .el-567122{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-174415 .el-567122 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-174415 .el-567122 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-174415 .el-567122 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-508610.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-508610.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-508610.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-508610.container  > .container-box:nth-child(1){
+      width: 20%;
+						    min-width: 20%;
+						    max-width: 20%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-508610.container  > .container-box:nth-child(2){
+      width: 80%;
+						    min-width: 80%;
+						    max-width: 80%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-508610.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-508610.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-508610 .el-289902{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-508610 .el-289902{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-508610 .el-289902{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-508610 .el-289902{ display:inherit; }}:where(#ledkraft-se-art-root) .el-508610 .el-289902 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-508610 .el-289902 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-508610 .el-200089{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-508610 .el-200089{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-508610 .el-200089{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-508610 .el-200089 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-508610 .el-200089 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-508610 .el-200089 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-274264.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-274264.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-274264.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-274264.container  > .container-box:nth-child(1){
+      width: 30%;
+						    min-width: 30%;
+						    max-width: 30%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-274264.container  > .container-box:nth-child(2){
+      width: 70%;
+						    min-width: 70%;
+						    max-width: 70%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-274264.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-274264.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-274264 .el-361957{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-274264 .el-361957{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-274264 .el-361957{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-274264 .el-361957{ display:inherit; }}:where(#ledkraft-se-art-root) .el-274264 .el-361957 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-274264 .el-361957 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-274264 .el-538915{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-274264 .el-538915{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-274264 .el-538915{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-274264 .el-538915 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-274264 .el-538915 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-274264 .el-538915 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-597977.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-597977.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-597977.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-597977.container  > .container-box:nth-child(1){
+      width: 20%;
+						    min-width: 20%;
+						    max-width: 20%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-597977.container  > .container-box:nth-child(2){
+      width: 80%;
+						    min-width: 80%;
+						    max-width: 80%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-597977.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-597977.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-597977 .el-618797{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-597977 .el-618797{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-597977 .el-618797{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-597977 .el-618797{ display:inherit; }}:where(#ledkraft-se-art-root) .el-597977 .el-618797 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-597977 .el-618797 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-597977 .el-788016{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-597977 .el-788016{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-597977 .el-788016{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-597977 .el-788016 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-597977 .el-788016 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-597977 .el-788016 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-529133.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-529133.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-529133.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-529133.container  > .container-box:nth-child(1){
+      width: 20%;
+						    min-width: 20%;
+						    max-width: 20%;
+						    flex: 1;
+      order: 0;
+    }:where(#ledkraft-se-art-root) .el-526672 .el-529133.container  > .container-box:nth-child(2){
+      width: 80%;
+						    min-width: 80%;
+						    max-width: 80%;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-529133.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-529133.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-529133 .el-450510{ display:inherit;margin:15px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-529133 .el-450510{ align-items:flex-end; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-529133 .el-450510{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-529133 .el-450510{ display:inherit; }}:where(#ledkraft-se-art-root) .el-529133 .el-450510 img{ border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:50px 50px 50px 50px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-529133 .el-450510 img{ width:50px;height:auto; }:where(#ledkraft-se-art-root) .el-529133 .el-177405{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-529133 .el-177405{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-529133 .el-177405{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-529133 .el-177405 .paragraph{ display:inherit;font-size:15px;text-align:left;font-weight:400;font-style:normal;line-height:1.2;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-529133 .el-177405 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-529133 .el-177405 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-526672 .el-782075.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;border-top:1px solid #4E4E4EFF;border-left:1px solid #4E4E4EFF;border-right:1px solid #4E4E4EFF;border-bottom:1px solid #4E4E4EFF;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;box-shadow:none; }:where(#ledkraft-se-art-root) .el-526672 .el-782075.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-526672 .el-782075.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-526672 .el-782075.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-526672 .el-782075.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-526672 .el-782075.container{ display:none; }}:where(#ledkraft-se-art-root) .el-782075 .el-185976{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-185976{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-185976{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-782075 .el-185976 .paragraph{ display:inherit;font-family:Open Sans;font-size:17px;text-align:center;font-weight:400;font-style:normal;line-height:1.4;margin:10px 0px 0px 5px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-185976 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-185976 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-466105{ display:inherit;margin:0px 0px 0px 0px; }:where(#ledkraft-se-art-root) .el-782075 .el-466105{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-466105{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-466105{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-466105 img{ box-shadow:none; }:where(#ledkraft-se-art-root) .el-782075 .el-466105 img{ width:119px;height:24px; }:where(#ledkraft-se-art-root) .el-782075 .el-225950{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-225950{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-225950{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-782075 .el-225950 .paragraph{ display:inherit;font-size:12px;text-align:center;font-weight:400;font-style:normal;line-height:1;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-225950 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-225950 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-449838{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-449838{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-449838{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-782075 .el-449838 .paragraph{ display:inherit;color:#0380ED;font-size:18px;text-align:center;font-weight:400;font-style:normal;line-height:1;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-449838 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-449838 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-435404{ display:inherit;margin:10px 10px 10px 10px; }:where(#ledkraft-se-art-root) .el-782075 .el-435404{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-435404{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-435404{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-435404 img{ box-shadow:none; }:where(#ledkraft-se-art-root) .el-782075 .el-435404 img{ width:195px;height:143px; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container  > .container-box:nth-child(1){
+      width: 10%;
+						    min-width: 10%;
+						    max-width: 10%;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-919864.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-919864.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-919864.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-919864 .el-84760{ display:inherit;margin:15px 0px 0px 5px; }:where(#ledkraft-se-art-root) .el-919864 .el-84760{ align-items:flex-start; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-919864 .el-84760{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-919864 .el-84760{ display:inherit; }}:where(#ledkraft-se-art-root) .el-919864 .el-84760 img{ box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-919864 .el-84760 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-919864 .el-570103{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-919864 .el-570103{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-919864 .el-570103{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-919864 .el-570103 .paragraph{ display:inherit;font-size:16px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-919864 .el-570103 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-919864 .el-570103 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-456781.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container  > .container-box:nth-child(1){
+      width: 10%;
+						    min-width: 10%;
+						    max-width: 10%;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-456781.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-456781.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-456781.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-456781 .el-280665{ display:inherit;margin:15px 0px 0px 5px; }:where(#ledkraft-se-art-root) .el-456781 .el-280665{ align-items:flex-start; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-456781 .el-280665{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-456781 .el-280665{ display:inherit; }}:where(#ledkraft-se-art-root) .el-456781 .el-280665 img{ box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-456781 .el-280665 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-456781 .el-553609{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-456781 .el-553609{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-456781 .el-553609{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-456781 .el-553609 .paragraph{ display:inherit;font-size:16px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-456781 .el-553609 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-456781 .el-553609 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-754788.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container  > .container-box:nth-child(1){
+      width: 10%;
+						    min-width: 10%;
+						    max-width: 10%;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-754788.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-754788.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-754788.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-754788 .el-504742{ display:inherit;margin:15px 0px 0px 5px; }:where(#ledkraft-se-art-root) .el-754788 .el-504742{ align-items:flex-start; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-754788 .el-504742{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-754788 .el-504742{ display:inherit; }}:where(#ledkraft-se-art-root) .el-754788 .el-504742 img{ box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-754788 .el-504742 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-754788 .el-707353{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-754788 .el-707353{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-754788 .el-707353{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-754788 .el-707353 .paragraph{ display:inherit;font-size:16px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-754788 .el-707353 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-754788 .el-707353 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-208266.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-position:center top;background-size:100% auto;box-shadow:none;gap:0px; }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container{ align-items:flex-start; }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container  > .container-box:nth-child(1){
+      width: 10%;
+						    min-width: 10%;
+						    max-width: 10%;
+						    flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container  > .container-box:nth-child(2){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 2;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-208266.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-208266.container{ display:inherit; }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container{ flex-direction: column; }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container  > .container-box:nth-child(1){
+      width: 10%;
+              min-width: 10%;
+              max-width: 10%;
+              flex: 1;
+      order: 1;
+    }:where(#ledkraft-se-art-root) .el-782075 .el-208266.container  > .container-box:nth-child(2){
+      width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+              flex: 1;
+      order: 2;
+    }}:where(#ledkraft-se-art-root) .el-208266 .el-12050{ display:inherit;margin:15px 0px 0px 5px; }:where(#ledkraft-se-art-root) .el-208266 .el-12050{ align-items:flex-start; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-208266 .el-12050{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-208266 .el-12050{ display:inherit; }}:where(#ledkraft-se-art-root) .el-208266 .el-12050 img{ box-shadow:none;object-fit:scale-down; }:where(#ledkraft-se-art-root) .el-208266 .el-12050 img{ width:100%;height:auto; }:where(#ledkraft-se-art-root) .el-208266 .el-865273{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-208266 .el-865273{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-208266 .el-865273{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-208266 .el-865273 .paragraph{ display:inherit;font-size:16px;text-align:left;font-weight:400;font-style:normal;line-height:1.5;margin:0px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-208266 .el-865273 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-208266 .el-865273 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .el-782075 .el-279434.container{ display:inherit;font-size:18px;text-align:center;font-weight:400;font-style:normal;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-color:#0380ED;box-shadow:transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-782075 .el-279434.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-782075 .el-279434.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-782075 .el-279434.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-782075 .el-279434.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-782075 .el-279434.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-279434 .el-256145 .btn{ display:inherit;color:#F6F9FE;font-size:14px;text-align:center;font-weight:400;font-style:normal;margin:0px 0px 0px 0px;padding:15px 30px 15px 30px;background-color:#0380ED;box-shadow:transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-279434 .el-256145{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-279434 .el-256145 .btn{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-279434 .el-256145 .btn{ display:inherit; }}:where(#ledkraft-se-art-root) .el-279434 .el-256145 .btn-sub-headline{ color:#F6F9FE;font-size:14px;text-align:center;font-weight:400;font-style:normal;margin-top:5px; }:where(#ledkraft-se-art-root) .el-279434 .el-256145 .btn-headline{ font-family:Open Sans;font-size:16px;text-align:center;font-weight:bold;font-style:normal; }:where(#ledkraft-se-art-root) .section_wrapper_936395{ position:sticky;z-index:10;bottom:1px; }:where(#ledkraft-se-art-root) .section_wrapper_936395 .section_row{ max-width:1170px; }:where(#ledkraft-se-art-root) .section_wrapper_936395{ width:100%; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_936395{ width:100%; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_936395{ width:100%; }}@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_936395 .section_row{ max-width:1170px; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_936395 .section_row{ max-width:1170px; }}:where(#ledkraft-se-art-root) .el-936395{ display:inherit; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-936395{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-936395{ display:inherit; }}:where(#ledkraft-se-art-root) .el-936395 .el-158141.section_row{ width:calc(100% - 0px); }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-936395 .el-158141.section_row{ width:calc(100% - 0px); }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-936395 .el-158141.section_row{ width:calc(100% - 0px); }}:where(#ledkraft-se-art-root) .el-936395 .el-158141.section_row{ display:inherit;color:#303030;font-size:14px;text-align:initial;font-weight:400;font-style:normal;border-top:0px solid transparent;border-left:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-radius:0px 0px 0px 0px;border-color:transparent;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;box-shadow:none;position:sticky;z-index:10;bottom:0px; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-936395 .el-158141.section_row{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-936395 .el-158141.section_row{ display:inherit; }}:where(#ledkraft-se-art-root) .el-158141 .el-990858.container{ display:inherit;font-size:18px;text-align:center;font-weight:bold;font-style:normal;border-top:0px solid ;border-left:0px solid ;border-right:0px solid ;border-bottom:0px solid ;border-radius:10px 10px 10px 10px;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;background-color:#0380ED;box-shadow:transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-158141 .el-990858.container{ align-items:start; }:where(#ledkraft-se-art-root) .el-158141 .el-990858.container{ flex-direction: row; }:where(#ledkraft-se-art-root) .el-158141 .el-990858.container  > .container-box:nth-child(1){
+      width: unset;
+						    min-width: 0;
+						    max-width: unset;
+						    flex: 1;
+      order: 0;
+    }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-158141 .el-990858.container{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-158141 .el-990858.container{ display:inherit; }}:where(#ledkraft-se-art-root) .el-990858 .el-750411 .btn{ display:inherit;color:#F6F9FE;font-size:14px;text-align:center;font-weight:400;font-style:normal;margin:0px 20px 0px 20px;padding:15px 30px 15px 30px;background-color:#0380ED;box-shadow:transparent 0px 0px 0px 0px ; }:where(#ledkraft-se-art-root) .el-990858 .el-750411{ align-items:center; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-990858 .el-750411 .btn{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-990858 .el-750411 .btn{ display:inherit;font-size:20px; }}:where(#ledkraft-se-art-root) .el-990858 .el-750411 .btn-sub-headline{ color:#F6F9FE;font-size:14px;text-align:center;font-weight:400;font-style:normal;margin-top:5px; }:where(#ledkraft-se-art-root) .el-990858 .el-750411 .btn-headline{ font-family:Open Sans;font-size:20px;text-align:center;font-weight:bold;font-style:normal; }@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-990858 .el-750411 .btn-headline{ font-size:20px; }}:where(#ledkraft-se-art-root) .section_wrapper_995922 .section_row{ max-width:1170px; }:where(#ledkraft-se-art-root) .section_wrapper_995922{ width:100%; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_995922{ width:100%; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_995922{ width:100%; }}@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .section_wrapper_995922 .section_row{ max-width:1170px; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .section_wrapper_995922 .section_row{ max-width:1170px; }}:where(#ledkraft-se-art-root) .el-995922{ display:inherit;margin:50px 0px 0px 0px;background-color:#636A7B; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-995922{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-995922{ display:inherit; }}:where(#ledkraft-se-art-root) .el-995922 .el-472813.section_row{ width:calc(100% - 0px); }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-995922 .el-472813.section_row{ width:calc(100% - 0px); }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-995922 .el-472813.section_row{ width:calc(100% - 0px); }}:where(#ledkraft-se-art-root) .el-995922 .el-472813.section_row{ display:inherit;color:#303030;font-size:14px;text-align:initial;font-weight:400;font-style:normal;border-top:0px solid transparent;border-left:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-radius:0px 0px 0px 0px;border-color:transparent;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background-repeat:no-repeat;box-shadow:none; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-995922 .el-472813.section_row{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-995922 .el-472813.section_row{ display:inherit; }}:where(#ledkraft-se-art-root) .el-472813 .el-395989{ width:100%;display:flex; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-472813 .el-395989{ width:100%;display:flex; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-472813 .el-395989{ width:100%;display:flex; }}:where(#ledkraft-se-art-root) .el-472813 .el-395989 .paragraph{ display:inherit;color:#B6B6B6;font-size:12px;text-align:center;font-weight:400;font-style:normal;line-height:1;margin:10px 0px 0px 0px;padding:10px 10px 10px 10px;text-shadow:transparent 0px 0px 0px ; }@media only screen and (min-width: 600px) and (max-width: 1024px){:where(#ledkraft-se-art-root) .el-472813 .el-395989 .paragraph{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 600px){:where(#ledkraft-se-art-root) .el-472813 .el-395989 .paragraph{ display:inherit; }}:where(#ledkraft-se-art-root) .lkx-imglink{display:block;text-align:center;line-height:0;cursor:pointer;}
+#ledkraft-se-art-root > section{margin-left:auto;margin-right:auto}
+
+
+#ledkraft-se-art-root :is(.el-177405 p, .el-200089 p, .el-345270 p, .el-538915 p, .el-55227 p, .el-567122 p, .el-625697 p, .el-788016 p){ font-size:18px !important; line-height:1.50 !important; }
+#ledkraft-se-art-root :is(.el-177405 strong, .el-200089 strong, .el-345270 strong, .el-538915 strong, .el-55227 strong, .el-567122 strong, .el-625697 strong, .el-788016 strong){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#ledkraft-se-art-root :is(.el-395989 a, .el-395989 span){ font-size:14px !important; line-height:1.30 !important; }
+#ledkraft-se-art-root :is(.el-638053 a.btn, .el-811812 a.btn){ background-color:#0372d4 !important; background-image:none !important; }
+#ledkraft-se-art-root :is(.el-995922){ background-color:#434853 !important; background-image:none !important; }
+
+
+#ledkraft-se-art-root :is(.el-177405 p, .el-200089 p, .el-345270 p, .el-538915 p, .el-55227 p, .el-567122 p, .el-625697 p, .el-788016 p, .el-989416 p){ font-size:18px !important; line-height:1.50 !important; }
+#ledkraft-se-art-root :is(.el-177405 strong, .el-200089 strong, .el-345270 strong, .el-538915 strong, .el-55227 strong, .el-567122 strong, .el-625697 strong, .el-788016 strong, .el-989416 strong){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#ledkraft-se-art-root :is(.el-225950 p, .el-395989 a, .el-395989 span){ font-size:14px !important; line-height:1.30 !important; }
+#ledkraft-se-art-root :is(.el-256145 span.btn-headline){ font-size:18px !important; line-height:1.30 !important; }
+#ledkraft-se-art-root :is(.el-449838 strong){ color:#0375d9 !important; }
+#ledkraft-se-art-root :is(.el-256145 a.btn, .el-638053 a.btn, .el-811812 a.btn){ background-color:#0372d4 !important; background-image:none !important; }
+#ledkraft-se-art-root :is(.el-995922){ background-color:#434853 !important; background-image:none !important; }
