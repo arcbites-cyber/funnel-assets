@@ -1051,3 +1051,14 @@
 #clearsight-pl2-sp-root :is(.el-682588 em, .el-923852 p){ color:#757575 !important; }
 #clearsight-pl2-sp-root :is(.el-444823 a.btn, .el-870699 a.btn, .el-875612 a.btn){ background-color:#378037 !important; background-image:none !important; }
 #clearsight-pl2-sp-root :is(.el-139524, .el-219480, .el-243662, .el-400550, .el-750883, .el-854591, .el-856080, .el-896766){ background-color:#398439 !important; background-image:none !important; }
+
+
+
+#clearsight-pl2-sp-root :is(.el-282376, .el-166516, .el-199000) .paragraph{ font-size:clamp(25px, 6.4vw, 28px) !important; line-height:1.2 !important; }
+
+#clearsight-pl2-sp-root :is(.el-894233, .el-430507, .el-623845, .el-684366) img{ max-width:420px !important; height:auto !important; }
+
+#clearsight-pl2-sp-root .el-168232 > .headline{ margin-top:0 !important; }
+#clearsight-pl2-sp-root :is(section.el-619141, section.el-665780, section.el-371250){ padding-top:0 !important; }
+
+#clearsight-pl2-sp-root :is(.el-727296, .el-886357, .el-471957) img{ max-width:420px !important; height:auto !important; }

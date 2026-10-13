@@ -1715,3 +1715,15 @@
 #clearsight-pl2-art-root :is(.el-140507 strong, .el-377660 strong, .el-626807 strong, .el-6473 strong, .el-680645 strong, .el-701401 strong, .el-711505 strong, .el-82236 strong, .el-87910 strong, .el-917076 strong){ color:#008a22 !important; }
 #clearsight-pl2-art-root :is(.el-154915 a, .el-324076 a, .el-328262 a, .el-362673 a, .el-395636 a, .el-512573 a, .el-771070 a, .el-864095 a, .el-98875 a){ color:#2275d7 !important; }
 #clearsight-pl2-art-root :is(.el-273849 a.btn, .el-297701 a.btn, .el-326338 a.btn, .el-863754 a.btn, .el-969094 a.btn){ background-color:#018535 !important; background-image:none !important; }
+
+
+
+#clearsight-pl2-art-root :is(.el-575195, .el-770017, .el-12663, .el-531688, .el-462701, .el-228078, .el-430966, .el-779890, .el-519607, .el-669327, .el-695799, .el-551991).headline{ font-size:25px !important; }
+
+#clearsight-pl2-art-root .el-834304 strong{ color:rgb(0,113,133) !important; }
+
+#clearsight-pl2-art-root div.el-182439.container{ margin-top:24px !important; }
+
+#clearsight-pl2-art-root :is(.el-84659, .el-904865, .el-309405, .el-273742, .el-360119, .el-909355, .el-577719, .el-273582, .el-887686, .el-743298) > .container-box:first-child{ flex:0 0 100px !important; width:100px !important; min-width:100px !important; max-width:100px !important; }
+#clearsight-pl2-art-root :is(.el-84659, .el-904865, .el-309405, .el-273742, .el-360119, .el-909355, .el-577719, .el-273582, .el-887686, .el-743298) > .container-box:first-child strong{ white-space:nowrap !important; }
+#clearsight-pl2-art-root :is(.el-84659, .el-904865, .el-309405, .el-273742, .el-360119, .el-909355, .el-577719, .el-273582, .el-887686, .el-743298) > .container-box:nth-child(2){ flex:1 1 auto !important; width:auto !important; min-width:0 !important; max-width:none !important; }
