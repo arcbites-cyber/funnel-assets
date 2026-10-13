@@ -1649,7 +1649,7 @@
 
 #perladent-za-sp-root .el-290924 h3 > *, #perladent-za-sp-root .el-788342 h3 > *, #perladent-za-sp-root .el-129461 h3 > *{ display:block !important; text-wrap:balance; }
 
-#perladent-za-sp-root .fbb{display:flex;gap:8px;align-items:flex-start;max-width:460px;margin:14px auto 22px;padding:0 10px;font-family:-apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif;text-align:left}
+#perladent-za-sp-root .fbb{display:flex;gap:8px;align-items:flex-start;max-width:460px;margin:14px auto 0;padding:0 10px;font-family:-apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif;text-align:left}
 #perladent-za-sp-root .fbb-av{width:40px !important;height:40px !important;flex:0 0 40px;border-radius:50%;object-fit:cover;margin:0;aspect-ratio:1/1}
 #perladent-za-sp-root .fbb-col{flex:1 1 auto;min-width:0}
 #perladent-za-sp-root .fbb-bubble{position:relative;background:#F0F2F5;border-radius:18px;padding:8px 12px 14px}
