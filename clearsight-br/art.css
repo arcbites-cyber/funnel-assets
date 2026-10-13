@@ -1727,3 +1727,7 @@
 #clearsight-br-art-root :is(.el-84659, .el-904865, .el-309405, .el-273742, .el-360119, .el-909355, .el-577719, .el-273582, .el-887686, .el-743298) > .container-box:first-child{ flex:0 0 100px !important; width:100px !important; min-width:100px !important; max-width:100px !important; }
 #clearsight-br-art-root :is(.el-84659, .el-904865, .el-309405, .el-273742, .el-360119, .el-909355, .el-577719, .el-273582, .el-887686, .el-743298) > .container-box:first-child strong{ white-space:nowrap !important; }
 #clearsight-br-art-root :is(.el-84659, .el-904865, .el-309405, .el-273742, .el-360119, .el-909355, .el-577719, .el-273582, .el-887686, .el-743298) > .container-box:nth-child(2){ flex:1 1 auto !important; width:auto !important; min-width:0 !important; max-width:none !important; }
+
+
+
+#clearsight-br-art-root .el-326284.paragraph, #clearsight-br-art-root .el-326284.paragraph p{ font-size:17px !important; line-height:1.45 !important; }
