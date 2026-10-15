@@ -360,3 +360,10 @@
 :where(#smileflex-br-sp-root) .smf-oferta-sec{ display:flex; flex-direction:column; width:100%; background:#fff; padding:24px 12px 8px;
   box-sizing:border-box; }:where(#smileflex-br-sp-root) .smf-oferta-sec > #oferta{ width:100%; max-width:820px; margin:0 auto; scroll-margin-top:8px; }
 #smileflex-br-sp-root > section{margin-left:auto;margin-right:auto}
+
+
+#smileflex-br-sp-root :is(.el-190534 p, .el-190534 strong, .el-208252 p, .el-345884 p, .el-404781 p, .el-475508 p, .el-559408 div.faq-title, .el-729153 strong, .el-741053 p, .el-930498 p){ line-height:1.50 !important; }
+#smileflex-br-sp-root :is(.el-223630 strong, .el-38897 strong, .el-859349 strong, .el-952991 strong){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#smileflex-br-sp-root :is(.el-574024 div){ font-size:18px !important; line-height:1.50 !important; }
+#smileflex-br-sp-root :is(.el-751438 span){ font-size:14px !important; line-height:1.30 !important; }
+#smileflex-br-sp-root :is(.el-359934 p){ color:#007db6 !important; }
