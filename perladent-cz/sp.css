@@ -1607,6 +1607,23 @@
 #perladent-cz-sp-root > section{margin-left:auto;margin-right:auto}
 
 
+
+#perladent-cz-sp-root :is(.el-129171 strong, .el-15949 p, .el-43 p, .el-599533 p, .el-631896 p, .el-825794 p, .el-862899 p, .el-956087 p){ line-height:1.50 !important; }
+#perladent-cz-sp-root :is(.el-192613 div.btn-sub-headline, .el-274166 div.btn-sub-headline, .el-770158 div.btn-sub-headline, .el-797731 div.btn-sub-headline, .el-800481 div.btn-sub-headline, .el-802346 div.btn-sub-headline, .el-959300 div.btn-sub-headline, .el-976952 div.btn-sub-headline, .el-992907 div.btn-sub-headline){ font-size:15px !important; line-height:1.30 !important; }
+#perladent-cz-sp-root :is(.el-863655 div.faq-title, .el-915859 p, .el-980183 p){ font-size:18px !important; line-height:1.50 !important; }
+#perladent-cz-sp-root :is(.el-687862 em, .el-759121 em){ color:#767676 !important; }
+#perladent-cz-sp-root :is(.el-770158 div.btn-sub-headline, .el-800481 div.btn-sub-headline){ color:#ed0002 !important; }
+#perladent-cz-sp-root :is(.el-145187, .el-685698, .el-702353){ background-color:#ed0002 !important; background-image:none !important; }
+#perladent-cz-sp-root :is(.el-192613 a.btn, .el-274166 a.btn, .el-797731 a.btn, .el-802346 a.btn, .el-959300 a.btn, .el-976952 a.btn, .el-992907 a.btn){ background-color:#e30002 !important; background-image:none !important; }
+
+#perladent-cz-sp-root :is(.el-1132 p, .el-15949 p, .el-43 p, .el-489930 p, .el-599533 p, .el-631896 p, .el-825794 p, .el-863655 div.faq-title, .el-956087 p){ font-size:18px !important; line-height:1.50 !important; }
+#perladent-cz-sp-root :is(.el-192613 div.btn-sub-headline, .el-274166 div.btn-sub-headline, .el-529953 div.btn-sub-headline, .el-797731 div.btn-sub-headline, .el-959300 div.btn-sub-headline, .el-976952 div.btn-sub-headline, .el-992907 div.btn-sub-headline){ font-size:15px !important; line-height:1.30 !important; }
+#perladent-cz-sp-root :is(.el-328723 span.btn-headline){ font-size:18px !important; line-height:1.30 !important; }
+#perladent-cz-sp-root :is(.el-862899 p){ line-height:1.50 !important; }
+#perladent-cz-sp-root :is(.el-84917 em, .el-960066 em){ color:#767676 !important; }
+#perladent-cz-sp-root :is(.el-192613 a.btn, .el-274166 a.btn, .el-328723 a.btn, .el-529953 a.btn, .el-797731 a.btn, .el-959300 a.btn, .el-976952 a.btn, .el-992907 a.btn){ background-color:#e30002 !important; background-image:none !important; }
+
+
 #perladent-cz-sp-root img[src*="/sp_logo."], #perladent-cz-sp-root img[src*="/sp_logo_white."]{ max-width:min(100%,250px) !important;
   height:auto !important; aspect-ratio:auto 700/96; }
 #perladent-cz-sp-root img[src*="/sp_face3d."], #perladent-cz-sp-root img[src*="/sp_hotwater."], #perladent-cz-sp-root img[src*="/sp_22."],
