@@ -1388,7 +1388,7 @@
     background:var(--brand); color:#fff; border-radius:12px; padding:15px 12px; margin-top:4px;
     font-size:18px; font-weight:900; letter-spacing:.3px; text-transform:uppercase; line-height:1.2;
     box-shadow:0 8px 20px -9px rgba(27,92,85,.62);
-  }:where(#prostalind-se-sp-root) .pls-card-cta::after{ content:" \2192"; }:where(#prostalind-se-sp-root) .pls-card-cta:hover{ background:var(--brand-dk); }:where(#prostalind-se-sp-root) .pls-guar{ margin-top:16px !important; }:where(#prostalind-se-sp-root) .pls-save{ display:block; font-size:15px; font-weight:800; color:var(--green); margin-top:2px; }:where(#prostalind-se-sp-root) .pls-deadline{ flex:0 0 100%; display:block; text-align:center; font-size:15px; color:var(--muted); margin-top:-2px; }:where(#prostalind-se-sp-root) .pls-rating{ text-align:center; font-size:16px; color:#1d1d1d; margin:-4px 0 12px; }:where(#prostalind-se-sp-root) .pls-rating span{ color:#00b67a; letter-spacing:1px; font-size:18px; }
+  }:where(#prostalind-se-sp-root) .pls-card-cta::after{ content:" \2192"; }:where(#prostalind-se-sp-root) .pls-card-cta:hover{ background:var(--brand-dk); }:where(#prostalind-se-sp-root) .pls-guar{ margin-top:16px !important; }:where(#prostalind-se-sp-root) .pls-save{ display:block; font-size:15px; font-weight:800; color:var(--green); margin-top:2px; }:where(#prostalind-se-sp-root) .pls-deadline{ flex:0 0 100%; display:block; text-align:center; font-size:15px; color:var(--muted); margin-top:-2px; }
   :where(#prostalind-se-sp-root) .pls-wrap{
     box-sizing:border-box !important; max-width:none !important;
     width:max(min(100%, 420px), min(1200px, 100vw - 48px, (100vw - 959px) * 999)) !important;
