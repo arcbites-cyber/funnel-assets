@@ -942,3 +942,8 @@
 #claramente-br-sp-root#claramente-br-sp-root#claramente-br-sp-root .el-897965 p, #claramente-br-sp-root#claramente-br-sp-root#claramente-br-sp-root .el-897965 p *{ font-size:18px !important; line-height:1.5 !important; }
 
 #claramente-br-sp-root#claramente-br-sp-root .el-897965 .paragraph{ margin-top:0 !important; }
+
+#claramente-br-sp-root#claramente-br-sp-root :is(.el-310307, .el-774468) .clm-rate{ justify-content:flex-start !important; margin:0 !important; padding-left:5px !important; }
+#claramente-br-sp-root#claramente-br-sp-root :is(.el-310307, .el-774468){ justify-content:flex-start !important; }
+
+#claramente-br-sp-root#claramente-br-sp-root .el-397713{ padding-right:0 !important; }
