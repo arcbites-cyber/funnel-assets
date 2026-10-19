@@ -402,3 +402,10 @@
 
 #claramente-br-art-root .el-718957{ width:auto !important; max-width:none !important; flex:0 0 auto !important; }
 #claramente-br-art-root .el-718957 img{ height:56px !important; width:auto !important; max-width:none !important; }
+
+
+#claramente-br-art-root#claramente-br-art-root .el-960608 p{ font-size:clamp(20px, 5.1vw, 30px) !important; line-height:1.2 !important; }
+#claramente-br-art-root#claramente-br-art-root .el-960608 .paragraph{ padding-top:6px !important; padding-bottom:6px !important; }
+#claramente-br-art-root#claramente-br-art-root :is(.el-379217 p, .el-379217 strong){ line-height:1.40 !important; }
+#claramente-br-art-root#claramente-br-art-root .el-718957 img{ height:clamp(44px, 11.3vw, 56px) !important; width:auto !important; }
+#claramente-br-art-root#claramente-br-art-root :is(.el-327271, .el-122970, .el-244123) a{ white-space:nowrap !important; }

@@ -273,3 +273,8 @@
 #bystravita-pl-art-root#bystravita-pl-art-root :is(.cbox-580868-0, .cbox-580868-2){ flex:1 1 0 !important; width:auto !important; min-width:12px !important; }
 
 #bystravita-pl-art-root#bystravita-pl-art-root .cbox-320390-0{ flex:0 0 auto !important; width:min(240px, 100%) !important; max-width:none !important; }
+
+
+#bystravita-pl-art-root#bystravita-pl-art-root .el-960608 p{ font-size:clamp(20px, 5.1vw, 30px) !important; line-height:1.2 !important; }
+#bystravita-pl-art-root#bystravita-pl-art-root .el-960608 .paragraph{ padding-top:6px !important; padding-bottom:6px !important; }
+#bystravita-pl-art-root#bystravita-pl-art-root :is(.el-379217 p, .el-379217 strong){ line-height:1.40 !important; }

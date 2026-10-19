@@ -315,7 +315,9 @@
 #klarsinne-se-art-root .cbox-320390-0{ flex:0 0 auto !important; width:auto !important; min-width:0 !important; max-width:100% !important; margin-left:auto !important; margin-right:auto !important; }
 #klarsinne-se-art-root .cbox-320390-1{ flex:1 1 260px !important; width:auto !important; min-width:0 !important; max-width:none !important; }
 
-#klarsinne-se-art-root#klarsinne-se-art-root .el-960608 p{ font-size:clamp(20px, 5.1vw, 24px) !important; line-height:1.25 !important; }
+
+#klarsinne-se-art-root#klarsinne-se-art-root .el-960608 p{ font-size:clamp(20px, 5.1vw, 30px) !important; line-height:1.2 !important; }
+#klarsinne-se-art-root#klarsinne-se-art-root .el-960608 .paragraph{ padding-top:6px !important; padding-bottom:6px !important; }
 #klarsinne-se-art-root#klarsinne-se-art-root :is(.el-379217 p, .el-379217 strong){ line-height:1.40 !important; }
 #klarsinne-se-art-root#klarsinne-se-art-root .el-718957 img{ height:clamp(30px, 8.6vw, 56px) !important; }
 #klarsinne-se-art-root#klarsinne-se-art-root .el-320390{ flex-wrap:nowrap !important; align-items:center !important; }

@@ -946,3 +946,12 @@
 #bystravita-pl-sp-root#bystravita-pl-sp-root :is(.el-310307, .el-774468){ justify-content:flex-start !important; }
 
 #bystravita-pl-sp-root#bystravita-pl-sp-root .el-397713{ padding-right:0 !important; }
+
+
+#bystravita-pl-sp-root#bystravita-pl-sp-root .el-391550 > div{ flex-wrap:nowrap !important; padding:6px 8px !important; }
+#bystravita-pl-sp-root#bystravita-pl-sp-root .el-391550 > div > div{ margin-right:6px !important; min-width:0 !important; }
+#bystravita-pl-sp-root#bystravita-pl-sp-root .el-391550 > div > div > p + p{ display:none !important; }
+#bystravita-pl-sp-root#bystravita-pl-sp-root .el-391550 #countdown{ flex:0 0 auto !important; padding:0 !important; }
+#bystravita-pl-sp-root#bystravita-pl-sp-root .el-391550 #countdown li{ margin:0 2px !important; }
+#bystravita-pl-sp-root#bystravita-pl-sp-root#bystravita-pl-sp-root#bystravita-pl-sp-root .el-391550 #countdown li span{ font-size:15px !important; padding:3px 5px !important; min-width:0 !important; }
+#bystravita-pl-sp-root#bystravita-pl-sp-root#bystravita-pl-sp-root#bystravita-pl-sp-root .el-391550 p strong{ font-size:14px !important; }
