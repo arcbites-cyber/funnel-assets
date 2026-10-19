@@ -718,6 +718,8 @@ font-weight: 400;
 
 #lekkikrok-pl-sp-root#lekkikrok-pl-sp-root :is(.container_178925, .container_271134) > a{ flex:1 1 100% !important; width:100% !important; max-width:100% !important; }
 
+#lekkikrok-pl-sp-root#lekkikrok-pl-sp-root .container_271134 > a > .el-271134{ display:flex !important; }
+
 #lekkikrok-pl-sp-root#lekkikrok-pl-sp-root .el-178925{ display:flex !important; flex-direction:column !important; align-items:center !important; margin:6px 0 !important; row-gap:2px !important; }
 #lekkikrok-pl-sp-root#lekkikrok-pl-sp-root .el-178925 > .container-box{ width:100% !important; max-width:100% !important; justify-content:center !important; }
 #lekkikrok-pl-sp-root#lekkikrok-pl-sp-root .el-704962 .paragraph{ padding:2px 6px !important; text-align:center !important; justify-content:center !important; }
