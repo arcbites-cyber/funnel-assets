@@ -942,3 +942,12 @@
 #klarsinne-se-sp-root#klarsinne-se-sp-root .el-337996{ padding-top:12px !important; }
 
 #klarsinne-se-sp-root#klarsinne-se-sp-root .el-731155 img{ width:100% !important; max-width:min(100%, 720px) !important; height:auto !important; margin:0 auto !important; display:block !important; }
+
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-731155{ margin-bottom:27px !important; }
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-868168{ margin-bottom:18px !important; }
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-391550 > div{ flex-wrap:nowrap !important; padding:6px 8px !important; }
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-391550 > div > div{ margin-right:6px !important; min-width:0 !important; }
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-391550 > div > div > p + p{ display:none !important; }
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-391550 #countdown{ flex:0 0 auto !important; padding:0 !important; }
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-391550 #countdown li{ margin:0 2px !important; }
+#klarsinne-se-sp-root#klarsinne-se-sp-root .el-391550 #countdown span{ padding:3px 4px !important; min-width:0 !important; }
