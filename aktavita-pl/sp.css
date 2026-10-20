@@ -1153,3 +1153,78 @@
 #aktavita-pl-sp-root :is(.el-886904 u){ font-size:14px !important; line-height:1.30 !important; }
 #aktavita-pl-sp-root :is(.el-313329 span, .el-450446 span, .el-55601 span, .el-616893 span, .el-905163 span){ color:#72777f !important; }
 #aktavita-pl-sp-root :is(.el-47311, .el-770920 a.btn){ background-color:#016df7 !important; background-image:none !important; }
+
+
+
+
+#aktavita-pl-sp-root .paragraph, #aktavita-pl-sp-root .headline,
+#aktavita-pl-sp-root .paragraph *, #aktavita-pl-sp-root .headline *{ white-space:normal !important; }
+
+
+#aktavita-pl-sp-root .video{ background:transparent !important; }
+#aktavita-pl-sp-root .video img{ opacity:1 !important; }
+#aktavita-pl-sp-root .flex{ flex:0 1 auto !important; }
+
+
+#aktavita-pl-sp-root img{ opacity:1 !important; }
+
+
+#aktavita-pl-sp-root img{ max-width:100% !important; height:auto !important; }
+
+#aktavita-pl-sp-root{ width:100% !important; max-width:100% !important; min-width:0 !important; flex:1 1 100% !important; }
+
+#aktavita-pl-sp-root .btn-container > a.btn{ box-sizing:border-box; justify-content:center !important; max-width:100% !important; }
+
+
+#aktavita-pl-sp-root #oferta img{ height:auto !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root .akv-tp span, #aktavita-pl-sp-root#aktavita-pl-sp-root .akv-tp b{ font-size:16px !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-427856, .el-867343, .el-493249, .el-963099) :is(p, span){ font-size:18px !important; line-height:1.3 !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root#aktavita-pl-sp-root .el-339348 p, #aktavita-pl-sp-root#aktavita-pl-sp-root#aktavita-pl-sp-root .el-339348 p *{ font-size:32px !important; line-height:1.2 !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root#aktavita-pl-sp-root .el-339348 p{ text-wrap:balance; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-208615.section{ padding-bottom:10px !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-282771.section_row{ margin-bottom:12px !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-686438 a.btn{ padding-left:12px !important; padding-right:12px !important; margin-top:10px !important; margin-bottom:10px !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-686438 .btn-headline{ white-space:nowrap !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root :is(img[src$="/sp_naklejki.webp"], img[src$="/sp_27.webp"], img[src$="/sp_przed_po.webp"],
+  img[src$="/sp_rodzina.webp"], img[src$="/sp_szuflada.webp"]){ max-height:420px !important; width:auto !important;
+  margin-left:auto !important; margin-right:auto !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root .akv-stock-n, #aktavita-pl-sp-root#aktavita-pl-sp-root .akv-stock-n strong{ color:#d00000 !important; }
+
+
+#aktavita-pl-sp-root .el-3293 :is(p,p *){font-size:clamp(16px,1.41vw,18px)!important}
+
+#aktavita-pl-sp-root .el-681505.img{margin:10px auto!important;width:clamp(180px,19.6vw,250px)!important}#aktavita-pl-sp-root .el-681505 img{width:100%!important}
+
+#aktavita-pl-sp-root .is-image-wrapper img[src*="/hero_aktavita."]{border:2px solid #000!important;box-sizing:border-box!important}
+
+#aktavita-pl-sp-root .el-319709{padding-left:10px!important}
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-427856,.el-867343) :is(p,span){font-weight:400!important}#aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-486316,.el-116352) p{font-size:19px!important}
+
+#aktavita-pl-sp-root .akv-stickybar{z-index:50!important}#aktavita-pl-sp-root .akv-stickybar>section{background:#fff!important;box-shadow:0 -2px 8px rgba(0,0,0,.12)!important}
+
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-832827,.el-579880,.el-698385,.el-732914,.el-198276) a.btn{ padding-left:30px !important; padding-right:30px !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-178572.section_row{ margin-top:0 !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-648976{ margin-top:0 !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-648976 .asb-wrap{ padding-top:12px !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root .asb-track img{ height:clamp(44px,5.63vw,72px) !important; width:auto !important; max-width:none !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-364738,.el-454863) a[href^="mailto:"]{ font-size:18px !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-411748,.el-319709) .akv-tp{ justify-content:flex-start !important; margin:0 !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-411748.img{ justify-content:flex-start !important; padding-left:5px !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root .el-319709.img{ justify-content:flex-start !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root#aktavita-pl-sp-root .el-128129 p, #aktavita-pl-sp-root#aktavita-pl-sp-root#aktavita-pl-sp-root .el-128129 p *{
+  font-size:30px !important; line-height:1.2 !important; }
+#aktavita-pl-sp-root#aktavita-pl-sp-root#aktavita-pl-sp-root .el-128129 p{ text-wrap:balance; }
