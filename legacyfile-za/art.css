@@ -281,3 +281,18 @@
 :where(#legacyfile-za-art-root) .lfa-flag{display:inline-block !important;width:20px !important;height:20px !important;max-width:20px !important;
   vertical-align:-4px;margin:0 6px 0 0 !important;border-radius:50%;aspect-ratio:auto 1/1;}:where(#legacyfile-za-art-root) .lfa-pol a{color:inherit;}
 #legacyfile-za-art-root > section{margin-left:auto;margin-right:auto}
+
+
+#legacyfile-za-art-root :is(.el-170449 p, .el-170449 strong, .el-209793 p, .el-231775 p, .el-231775 strong, .el-237616 p, .el-262482 p, .el-262482 strong, .el-323800 p, .el-323800 strong, .el-357162 p, .el-366991 p, .el-39024 p, .el-398238 p, .el-410491 p, .el-568819 em, .el-59834 p, .el-59834 strong, .el-80265 p, .el-83942 em, .el-83942 p, .el-906991 p, .el-926105 em, .el-975142 p){ line-height:1.50 !important; }
+#legacyfile-za-art-root :is(.el-60948 b){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#legacyfile-za-art-root :is(.el-840279 span.btn-headline){ font-size:18px !important; line-height:1.30 !important; }
+#legacyfile-za-art-root :is(.el-968319 div, .el-968319 span){ font-size:18px !important; line-height:1.50 !important; }
+#legacyfile-za-art-root :is(.el-366991 span){ color:#e30606 !important; }
+
+
+#legacyfile-za-art-root :is(.el-107707 p, .el-160085 p, .el-364117 em, .el-364117 p, .el-417252 p, .el-485654 p, .el-575000 p, .el-575000 strong, .el-581861 p, .el-584717 p, .el-584717 strong, .el-640643 p, .el-656684 p, .el-690038 p, .el-690038 strong, .el-70015 em, .el-796030 p, .el-876226 p, .el-88542 em, .el-889824 p, .el-889824 strong, .el-943177 p, .el-998425 p, .el-998425 strong){ line-height:1.50 !important; }
+#legacyfile-za-art-root :is(.el-43057 b, .el-65570 span){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#legacyfile-za-art-root :is(.el-543639 span.btn-headline){ font-size:18px !important; line-height:1.30 !important; }
+#legacyfile-za-art-root :is(.el-70044 div, .el-70044 span, .el-72807 p){ font-size:18px !important; line-height:1.50 !important; }
+#legacyfile-za-art-root :is(.el-841978 strong){ font-size:14px !important; line-height:1.30 !important; }
+#legacyfile-za-art-root :is(.el-640643 span){ color:#e30606 !important; }
