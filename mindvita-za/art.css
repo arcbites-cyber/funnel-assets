@@ -387,6 +387,13 @@
 #mindvita-za-art-root > section{margin-left:auto;margin-right:auto}
 
 
+#mindvita-za-art-root :is(.el-122970 a, .el-244123 a, .el-327271 a, .el-980749 strong){ font-size:14px !important; line-height:1.30 !important; }
+#mindvita-za-art-root :is(.el-128665 p, .el-128665 strong, .el-143603 p, .el-172795 p, .el-210432 p, .el-210432 strong, .el-281613 p, .el-281613 strong, .el-281613 u, .el-347874 p, .el-347874 strong, .el-3966 p, .el-3966 strong, .el-445551 p, .el-445551 strong, .el-458505 p, .el-522817 p, .el-522817 strong, .el-620453 p, .el-620453 strong, .el-717268 p, .el-717268 strong, .el-743710 p, .el-743710 strong, .el-743710 u, .el-86983 p, .el-86983 strong, .el-960608 p, .el-960608 strong){ line-height:1.50 !important; }
+#mindvita-za-art-root :is(.el-198045 a){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#mindvita-za-art-root :is(.el-726698 p, .el-917614 strong){ font-size:18px !important; line-height:1.50 !important; }
+#mindvita-za-art-root :is(.el-612469 strong){ color:#757575 !important; }
+
+
 
 
 #mindvita-za-art-root .sticky_show_after.visible > section.section{ width:100% !important; flex:1 1 100% !important; align-self:stretch !important; }

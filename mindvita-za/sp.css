@@ -787,6 +787,24 @@
 #mindvita-za-sp-root > section{margin-left:auto;margin-right:auto}
 
 
+#mindvita-za-sp-root :is(.el-143042 p, .el-504155 u){ font-size:14px !important; line-height:1.30 !important; }
+#mindvita-za-sp-root :is(.el-210338 strong, .el-555151 span, .el-572324 p, .el-638312 strong, .el-650136 strong, .el-665345 a){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#mindvita-za-sp-root :is(.el-227775 p, .el-227775 strong, .el-36451 p, .el-367465 p, .el-367465 strong, .el-384476 p, .el-384476 strong, .el-449999 div.faq-title, .el-560874 p, .el-585764 p, .el-585764 strong, .el-676557 div.faq-title, .el-728081 p, .el-858762 p, .el-95859 p, .el-95859 strong){ line-height:1.50 !important; }
+#mindvita-za-sp-root :is(.el-294472 span, .el-386930 span, .el-466544 span, .el-533462 span, .el-832625 span, .el-982828 span, .el-991752 span){ font-size:18px !important; line-height:1.30 !important; }
+#mindvita-za-sp-root :is(.el-46427 p, .el-55597 p, .el-924412 p){ font-size:18px !important; line-height:1.50 !important; }
+#mindvita-za-sp-root :is(.el-202446 u, .el-536382 u){ color:#72777f !important; }
+#mindvita-za-sp-root :is(.el-425248 u, .el-4972 u, .el-763417 u){ color:#666a71 !important; }
+#mindvita-za-sp-root :is(.el-55597 p, .el-81792 span){ color:#757575 !important; }
+#mindvita-za-sp-root :is(.el-724877 strong){ color:#5da411 !important; }
+
+#mindvita-za-sp-root :is(.el-265949 em, .el-310847 p, .el-310847 strong, .el-366519 p, .el-366519 strong, .el-378638 em, .el-405311 p, .el-405311 strong, .el-433877 em, .el-467629 p, .el-643920 p, .el-977254 p, .el-977254 strong, .el-987330 p, .el-987330 strong){ line-height:1.50 !important; }
+#mindvita-za-sp-root :is(.el-553322 p, .el-555151 span, .el-763388 a){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#mindvita-za-sp-root :is(.el-191054 u, .el-591311 u){ color:#72777f !important; }
+#mindvita-za-sp-root :is(.el-221735 u, .el-752670 u, .el-866830 u){ color:#666a71 !important; }
+#mindvita-za-sp-root :is(.el-467629 p){ color:#757575 !important; }
+#mindvita-za-sp-root :is(.el-530065 strong){ color:#5da411 !important; }
+
+
 
 #mindvita-za-sp-root .sticky-bar, #mindvita-za-sp-root [class*="sticky"] a,
 #mindvita-za-sp-root [class*="sticky"] .headline{
@@ -816,7 +834,7 @@
 
 #mindvita-za-sp-root#mindvita-za-sp-root img[src*="/sp_036."]{ max-width:min(100%, 300px) !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
 
-#mindvita-za-sp-root#mindvita-za-sp-root :is(img[src*="/sp_antes_depois."], img[src*="/sp_cozinha."], img[src*="/sp_comparativo."], img[src*="/sp_dra_frasco."], img[src*="/sp_clientes."]){ max-width:min(100%, 420px) !important; height:auto !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
+#mindvita-za-sp-root#mindvita-za-sp-root :is(img[src*="/sp_before_after."], img[src*="/sp_kitchen."], img[src*="/sp_comparison."], img[src*="/sp_dr_bottle."], img[src*="/sp_customers."]){ max-width:min(100%, 420px) !important; height:auto !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
 
 #mindvita-za-sp-root#mindvita-za-sp-root .el-590056{ margin-top:0 !important; }
 #mindvita-za-sp-root#mindvita-za-sp-root .el-233604{ padding-top:12px !important; }
@@ -840,3 +858,6 @@
 #mindvita-za-sp-root#mindvita-za-sp-root .el-391550 #countdown li{ margin:0 2px !important; }
 #mindvita-za-sp-root#mindvita-za-sp-root#mindvita-za-sp-root#mindvita-za-sp-root .el-391550 #countdown li span{ font-size:15px !important; padding:3px 5px !important; min-width:0 !important; }
 #mindvita-za-sp-root#mindvita-za-sp-root#mindvita-za-sp-root#mindvita-za-sp-root .el-391550 p strong{ font-size:14px !important; }
+
+
+#mindvita-za-sp-root#mindvita-za-sp-root img[src*="/pay_visa_mc."]{ max-width:min(100%, 368px) !important; height:auto !important; margin-left:auto !important; margin-right:auto !important; display:block !important; }
