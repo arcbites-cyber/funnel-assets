@@ -1050,6 +1050,9 @@
 #aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-501659,.el-131117,.el-456003,.el-502783,.el-441394,.el-766667,
   .el-415119,.el-167526,.el-964140,.el-250360,.el-919642,.el-740770).container{ align-items:flex-start !important;
   margin-top:8px !important; margin-bottom:0 !important; }
+
+#aktavita-pl-sp-root#aktavita-pl-sp-root :is(.el-875515,.el-374697,.el-493249,.el-949863,.el-280847,.el-963099) :is(p,span){ font-size:18px !important;
+  font-weight:700 !important; line-height:1.3 !important; }
 #aktavita-pl-sp-root#aktavita-pl-sp-root .el-501659.container{ margin-top:15px !important; }
 #aktavita-pl-sp-root#aktavita-pl-sp-root .el-415119.container{ margin-top:20px !important; }
 
