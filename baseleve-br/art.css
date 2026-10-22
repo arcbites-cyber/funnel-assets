@@ -789,3 +789,11 @@
 #baseleve-br-art-root .el-1444{ margin-top:0 !important; }
 
 #baseleve-br-art-root .kderm26__verified{ color:#0b7a35 !important; }
+
+#baseleve-br-art-root .kderm26 .kderm26__portrait{ flex:0 0 76px !important; width:76px !important; height:76px !important; }
+#baseleve-br-art-root .kderm26 .kderm26__image{ width:76px !important; height:76px !important; max-width:none !important; border-radius:50% !important; object-fit:cover !important; object-position:50% 30% !important; aspect-ratio:1/1 !important; }
+#baseleve-br-art-root .kderm26 .kderm26__name{ font-size:18px !important; }
+
+#baseleve-br-art-root .paragraph.blv-sechead{ padding-bottom:0 !important; margin-bottom:0 !important; }
+#baseleve-br-art-root .paragraph.blv-secbody{ padding-top:2px !important; margin-top:0 !important; }
+#baseleve-br-art-root .paragraph.blv-split .paragraph-inner p + p{ margin-top:16px !important; }
