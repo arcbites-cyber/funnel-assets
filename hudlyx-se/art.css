@@ -887,3 +887,11 @@
 #hudlyx-se-art-root#hudlyx-se-art-root :is(.el-356101, .el-67740), #hudlyx-se-art-root#hudlyx-se-art-root :is(.el-356101, .el-67740) .paragraph{ background-color:#b63873 !important; }
 
 #hudlyx-se-art-root#hudlyx-se-art-root .kderm26__verified{ color:#0F7A3A !important; }
+
+#hudlyx-se-art-root#hudlyx-se-art-root .kderm26 .kderm26__portrait{ flex:0 0 76px !important; width:76px !important; height:76px !important; }
+#hudlyx-se-art-root#hudlyx-se-art-root .kderm26 .kderm26__image{ width:76px !important; height:76px !important; max-width:none !important; border-radius:50% !important; object-fit:cover !important; object-position:50% 30% !important; aspect-ratio:1/1 !important; }
+#hudlyx-se-art-root#hudlyx-se-art-root .kderm26 .kderm26__name{ font-size:18px !important; }
+
+#hudlyx-se-art-root#hudlyx-se-art-root .paragraph.hdl-sechead{ padding-bottom:0 !important; margin-bottom:0 !important; }
+#hudlyx-se-art-root#hudlyx-se-art-root .paragraph.hdl-secbody{ padding-top:6px !important; margin-top:0 !important; }
+#hudlyx-se-art-root#hudlyx-se-art-root .paragraph.hdl-split .paragraph-inner p + p{ margin-top:16px !important; }
