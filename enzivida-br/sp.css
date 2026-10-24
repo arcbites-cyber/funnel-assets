@@ -806,3 +806,79 @@
 :where(#enzivida-br-sp-root) .enz-oferta-sec{ display:flex; flex-direction:column; width:100%; background:#fff; padding:24px 12px 8px; box-sizing:border-box; }:where(#enzivida-br-sp-root) .enz-oferta-sec > #oferta{ width:100%; max-width:820px; margin:0 auto; scroll-margin-top:8px; }:where(#enzivida-br-sp-root) a.enz-goto{ text-decoration:none; color:inherit; }
 :where(#enzivida-br-sp-root) .el-758042, :where(#enzivida-br-sp-root) .el-758042 *{ white-space:nowrap; }
 #enzivida-br-sp-root > section{margin-left:auto;margin-right:auto}
+
+
+#enzivida-br-sp-root :is(.el-143078 div.faq-title, .el-212760 div.faq-title, .el-316560 div.faq-title, .el-361615 div.faq-title, .el-569502 p, .el-66072 p, .el-688259 div.faq-title, .el-930355 p, .el-937151 div.faq-title, .el-956765 p, .el-962460 div.faq-title){ font-size:18px !important; line-height:1.50 !important; }
+#enzivida-br-sp-root :is(.el-162586 p, .el-479861 u, .el-50372 p, .el-516250 strong, .el-535216 p, .el-580779 p, .el-657699 u, .el-845077 span, .el-963944 u){ font-size:14px !important; line-height:1.30 !important; }
+#enzivida-br-sp-root :is(.el-448790 p, .el-691174 strong, .el-796574 p, .el-94463 p){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#enzivida-br-sp-root :is(.el-468165 p){ line-height:1.50 !important; }
+#enzivida-br-sp-root :is(.el-209439 p){ color:#2275d7 !important; }
+#enzivida-br-sp-root :is(.el-50372 p, .el-535216 p, .el-580779 p){ color:#797575 !important; }
+#enzivida-br-sp-root :is(.el-845077 a){ color:#2171ce !important; }
+#enzivida-br-sp-root :is(.el-383848, .el-55308){ background-color:#208654 !important; background-image:none !important; }
+
+
+#enzivida-br-sp-root :is(.el-143078 div.faq-title, .el-212760 div.faq-title, .el-316560 div.faq-title, .el-361615 div.faq-title, .el-569502 p, .el-66072 p, .el-688259 div.faq-title, .el-930355 p, .el-937151 div.faq-title, .el-962460 div.faq-title){ font-size:18px !important; line-height:1.50 !important; }
+#enzivida-br-sp-root :is(.el-448790 p, .el-796574 p, .el-94463 p){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#enzivida-br-sp-root :is(.el-479861 u, .el-50372 p, .el-516250 strong, .el-535216 p, .el-580779 p, .el-657699 u, .el-845077 span, .el-963944 u){ font-size:14px !important; line-height:1.30 !important; }
+#enzivida-br-sp-root :is(.el-956765 p){ line-height:1.50 !important; }
+#enzivida-br-sp-root :is(.el-209439 p){ color:#2275d7 !important; }
+#enzivida-br-sp-root :is(.el-50372 p, .el-535216 p, .el-580779 p){ color:#797575 !important; }
+#enzivida-br-sp-root :is(.el-845077 a){ color:#2171ce !important; }
+#enzivida-br-sp-root :is(.el-383848, .el-55308){ background-color:#208654 !important; background-image:none !important; }
+
+
+
+#enzivida-br-sp-root .el-135033{ margin-top:0 !important; }
+#enzivida-br-sp-root .el-359690{ margin-bottom:10px !important; }
+#enzivida-br-sp-root .el-145829{ margin-top:0 !important; }
+#enzivida-br-sp-root .el-83242{ margin-top:10px !important; margin-bottom:10px !important; }
+#enzivida-br-sp-root .el-731461, #enzivida-br-sp-root .el-891534, #enzivida-br-sp-root .el-922437{ margin-top:6px !important; }
+#enzivida-br-sp-root .el-860129{ margin-top:0 !important; margin-bottom:0 !important; }
+#enzivida-br-sp-root .el-515826{ margin-top:0 !important; }
+#enzivida-br-sp-root .el-977510{ margin-top:10px !important; }
+
+
+#enzivida-br-sp-root#enzivida-br-sp-root#enzivida-br-sp-root .el-635355 p, #enzivida-br-sp-root#enzivida-br-sp-root#enzivida-br-sp-root .el-635355 p *{
+  font-size:clamp(30px, 2.6vw, 34px) !important; line-height:1.2 !important; }
+#enzivida-br-sp-root#enzivida-br-sp-root#enzivida-br-sp-root .el-635355 p{ text-wrap:balance; }
+
+    #enzivida-br-sp-root#enzivida-br-sp-root .el-663048 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-663048 .paragraph *,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-906571 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-906571 .paragraph *,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-917219 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-917219 .paragraph *,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-93171 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-93171 .paragraph *,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-226671 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-226671 .paragraph *{ font-size:18px !important;
+      line-height:1.45 !important; }
+    #enzivida-br-sp-root#enzivida-br-sp-root .el-663048,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-906571,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-917219,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-93171,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-226671{ margin-bottom:4px !important; }
+    #enzivida-br-sp-root#enzivida-br-sp-root .el-663048 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-906571 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-917219 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-93171 .paragraph,
+#enzivida-br-sp-root#enzivida-br-sp-root .el-226671 .paragraph{
+      padding-top:3px !important; padding-bottom:3px !important;
+      margin-top:0 !important; }
+
+#enzivida-br-sp-root .el-891087 *, #enzivida-br-sp-root .el-874822 *, #enzivida-br-sp-root .el-924327 p, #enzivida-br-sp-root .el-924327 p *{ font-size:clamp(16px, 1.45vw, 18px) !important; }
+#enzivida-br-sp-root .el-209439 p, #enzivida-br-sp-root .el-209439 p *{ font-size:18px !important; }
+
+#enzivida-br-sp-root .ecm-title{ font-size:15px !important; }
+
+#enzivida-br-sp-root .btn-container > a.btn{ min-height:48px !important; box-sizing:border-box; }
+
+#enzivida-br-sp-root .el-261829{ padding-bottom:8px !important; }
+
+#enzivida-br-sp-root .el-19468 a.btn{ padding-left:12px !important; padding-right:12px !important; }
+
+#enzivida-br-sp-root .el-22429{ margin-bottom:6px !important; }
+#enzivida-br-sp-root .el-515826{ padding-bottom:8px !important; }
+
+#enzivida-br-sp-root#enzivida-br-sp-root .el-727457 p, #enzivida-br-sp-root#enzivida-br-sp-root .el-727457 p *{ font-size:clamp(16px, 1.4vw, 18px) !important; }
