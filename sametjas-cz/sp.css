@@ -2042,4 +2042,8 @@
 
 #sametjas-cz-sp-root .el-763417 > .paragraph{ margin-bottom:4px !important; }
 
+#sametjas-cz-sp-root .el-821028{ flex-wrap:wrap !important; row-gap:10px !important; }
+#sametjas-cz-sp-root .el-821028 > .cbox-821028-0, #sametjas-cz-sp-root .el-821028 > .cbox-821028-2{ flex:0 0 32px !important; max-width:32px !important; }
+#sametjas-cz-sp-root .el-821028 > .cbox-821028-1, #sametjas-cz-sp-root .el-821028 > .cbox-821028-3{ flex:1 1 calc(100% - 32px) !important; max-width:calc(100% - 32px) !important; }
+
 #sametjas-cz-sp-root .smj-fq{ font:inherit !important; color:inherit !important; margin:0 !important; padding:0 !important; letter-spacing:inherit !important; text-transform:inherit !important; }
