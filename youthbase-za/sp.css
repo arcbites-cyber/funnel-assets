@@ -1981,6 +1981,26 @@
 #youthbase-za-sp-root > section{margin-left:auto;margin-right:auto}
 
 
+#youthbase-za-sp-root :is(.el-141165 div, .el-141165 span, .el-806564 strong, .el-896603 span, .el-925652 a, .el-925652 p, .el-939261 span, .el-939261 strong, .el-985652 a, .el-985652 span){ font-size:14px !important; line-height:1.30 !important; }
+#youthbase-za-sp-root :is(.el-226753 h2, .el-253907 p, .el-308573 p, .el-321683 p, .el-323711 p, .el-360450 li, .el-360450 p, .el-408174 p, .el-789539 p, .el-796200 p, .el-806564 h2, .el-860912 p, .el-896603 div){ font-size:18px !important; line-height:1.50 !important; }
+#youthbase-za-sp-root :is(.el-308573 h3){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#youthbase-za-sp-root :is(.el-612100 div.btn-sub-headline, .el-765498 div.btn-sub-headline, .el-780056 div.btn-sub-headline){ font-size:15px !important; line-height:1.30 !important; }
+#youthbase-za-sp-root :is(.el-430093 strong){ color:#05a671 !important; }
+#youthbase-za-sp-root :is(.el-684682 span, .el-763417 span){ color:#72777f !important; }
+#youthbase-za-sp-root :is(.el-896603 div){ color:#0077b6 !important; }
+#youthbase-za-sp-root :is(.el-400783){ background-color:#c64782 !important; background-image:none !important; }
+#youthbase-za-sp-root :is(.el-612100 a.btn, .el-765498 a.btn, .el-780056 a.btn){ background-color:#b63873 !important; background-image:none !important; }
+
+
+
+#youthbase-za-sp-root :is(.el-118891 span, .el-118891 strong, .el-236546 strong, .el-56025 span, .el-8714 a, .el-8714 span){ font-size:14px !important; line-height:1.30 !important; }
+#youthbase-za-sp-root :is(.el-220204 p, .el-236546 h2, .el-488822 p, .el-56025 div, .el-754529 p, .el-912777 p){ font-size:18px !important; line-height:1.50 !important; }
+#youthbase-za-sp-root :is(.el-287669 div.btn-sub-headline){ font-size:15px !important; line-height:1.30 !important; }
+#youthbase-za-sp-root :is(.el-239646 span, .el-521617 span){ color:#72777f !important; }
+#youthbase-za-sp-root :is(.el-56025 div){ color:#0077b6 !important; }
+#youthbase-za-sp-root :is(.el-287669 a.btn){ background-color:#c43f7d !important; background-image:none !important; }
+
+
 
 #youthbase-za-sp-root details:not([open]) .lvfaq27__answer,
 #youthbase-za-sp-root details:not([open]) .lvfq28__answer{ display:none !important; }

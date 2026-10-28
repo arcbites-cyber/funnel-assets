@@ -749,6 +749,23 @@
 #youthbase-za-art-root > section{margin-left:auto;margin-right:auto}
 
 
+#youthbase-za-art-root :is(.el-219841 div){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#youthbase-za-art-root :is(.el-861734 blockquote, .el-876321 p){ font-size:18px !important; line-height:1.50 !important; }
+#youthbase-za-art-root :is(.el-19964 strong){ color:#cd5e92 !important; }
+#youthbase-za-art-root :is(.el-356101, .el-995922){ background-color:#c64782 !important; background-image:none !important; }
+
+
+#youthbase-za-art-root :is(.el-210805 p, .el-279840 p, .el-386724 p, .el-417629 strong, .el-485176 p, .el-496905 strong, .el-568071 p, .el-619474 p, .el-763174 p, .el-872611 p, .el-884244 p, .el-890849 p){ font-size:18px !important; line-height:1.50 !important; }
+#youthbase-za-art-root :is(.el-19964 strong){ color:#b53873 !important; }
+#youthbase-za-art-root :is(.el-216659 strong, .el-417629 strong, .el-623147 strong, .el-739562 strong, .el-78631 strong, .el-797713 strong, .el-868873 strong){ color:#c64782 !important; }
+#youthbase-za-art-root :is(.el-356101, .el-397902){ background-color:#c64782 !important; background-image:none !important; }
+
+#youthbase-za-art-root :is(.el-210805 p, .el-279840 p, .el-386724 p, .el-417629 strong, .el-485176 p, .el-496905 strong, .el-568071 p, .el-619474 p, .el-763174 p, .el-872611 p, .el-884244 p, .el-890849 p){ font-size:18px !important; line-height:1.50 !important; }
+#youthbase-za-art-root :is(.el-19964 strong){ color:#b53873 !important; }
+#youthbase-za-art-root :is(.el-216659 strong, .el-417629 strong, .el-623147 strong, .el-739562 strong, .el-78631 strong, .el-797713 strong, .el-868873 strong){ color:#c64782 !important; }
+#youthbase-za-art-root :is(.el-397902, .el-67740){ background-color:#c64782 !important; background-image:none !important; }
+
+
 
 #youthbase-za-art-root img[src$="/yb_028.webp"],
 #youthbase-za-art-root img[src$="/yb_029.webp"],
