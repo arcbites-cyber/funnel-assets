@@ -699,3 +699,21 @@
       order: 3;
     }}:where(#somnopuls-br-lp2-root) .el-331274 .el-390582 .btn{ display:none;color:#FFFFFFFF;font-size:14px;text-align:center;font-weight:bold;font-style:normal;border-top:0px dashed #197C16;border-left:0px dashed #197C16;border-right:0px dashed #197C16;border-bottom:0px dashed #197C16;border-radius:10px 10px 10px 10px;border-color:#197C16;margin:5px 5px 5px 5px;padding:15px 15px 15px 15px;background-color:#d2ac63;box-shadow:none; }:where(#somnopuls-br-lp2-root) .el-331274 .el-390582{ align-items:flex-start; }@media only screen and (min-width: 768px) and (max-width: 1023.98px){:where(#somnopuls-br-lp2-root) .el-331274 .el-390582 .btn{ display:none; }}@media only screen and (min-width: 0px) and (max-width: 767.98px){:where(#somnopuls-br-lp2-root) .el-331274 .el-390582 .btn{ display:inherit;color:#FFFFFFFF;font-size:15px; }:where(#somnopuls-br-lp2-root) .el-331274 .el-390582{ align-items:center; }}:where(#somnopuls-br-lp2-root) .el-331274 .el-390582:hover .btn{ display:inherit;box-shadow:#000000 0px 0px 7px 0px ; }@media only screen and (min-width: 768px) and (max-width: 1023.98px){:where(#somnopuls-br-lp2-root) .el-331274 .el-390582:hover .btn{ display:inherit; }}@media only screen and (min-width: 0px) and (max-width: 767.98px){:where(#somnopuls-br-lp2-root) .el-331274 .el-390582:hover .btn{ display:inherit; }}:where(#somnopuls-br-lp2-root) .el-331274 .el-390582 .btn-sub-headline{ color:#FFFFFFFF;font-size:14px;text-align:center;font-weight:bold;font-style:normal;margin-top:4px; }:where(#somnopuls-br-lp2-root) .el-331274 .el-390582 .btn-headline{ font-family:Outfit;font-size:22px;text-align:center;font-weight:bold;font-style:normal; }@media only screen and (min-width: 0px) and (max-width: 767.98px){:where(#somnopuls-br-lp2-root) .el-331274 .el-390582 .btn-headline{ color:#FFFFFFFF;font-size:15px; }}
 #somnopuls-br-lp2-root > section{margin-left:auto;margin-right:auto}
+
+
+#somnopuls-br-lp2-root :is(.el-202416 p, .el-202416 strong, .el-306877 p, .el-306877 strong, .el-335298 p, .el-335298 strong, .el-605056 p, .el-605056 strong, .el-61001 div, .el-644716 p, .el-644716 strong){ font-size:18px !important; line-height:1.50 !important; }
+#somnopuls-br-lp2-root :is(.el-22330 p, .el-339593 p, .el-593848 p, .el-666635 p, .el-822490 p, .el-838721 p){ font-size:18px !important; line-height:1.30 !important; }
+#somnopuls-br-lp2-root :is(.el-262746 u, .el-36153 u, .el-384658 u, .el-553138 u, .el-963891 span, .el-98818 u){ font-size:14px !important; line-height:1.30 !important; }
+
+
+#somnopuls-br-lp2-root :is(.el-300471 span, .el-410864 b, .el-585985 span, .el-694746 span, .el-8102 span, .el-862837 span){ font-size:17px !important; line-height:1.30 !important; font-weight:700 !important; }
+#somnopuls-br-lp2-root :is(.el-300471 strong, .el-585985 strong, .el-694746 strong, .el-8102 strong, .el-862837 strong){ font-size:14px !important; line-height:1.30 !important; }
+#somnopuls-br-lp2-root :is(.el-3023 p, .el-474364 p, .el-642589 p, .el-738060 p, .el-957873 p){ font-size:18px !important; line-height:1.30 !important; }
+#somnopuls-br-lp2-root :is(.el-326007 div){ line-height:1.50 !important; }
+#somnopuls-br-lp2-root :is(.el-216904 p){ color:#757575 !important; }
+#somnopuls-br-lp2-root :is(.el-300471 strong, .el-694746 strong){ color:#eb0000 !important; }
+#somnopuls-br-lp2-root :is(.el-585985 strong, .el-8102 strong, .el-862837 strong){ color:#e50000 !important; }
+#somnopuls-br-lp2-root :is(.el-901485){ background-color:#916e2a !important; background-image:none !important; }
+
+
+#somnopuls-br-lp2-root summary::-webkit-details-marker{ display:none; }
