@@ -967,6 +967,10 @@
 
 #sinurestore-za-art-root .hcr-logo { font-size: 26px; line-height: 1.15; }   
 
+
+#sinurestore-za-art-root .figure img[src*="sinurestore-za/adv_020."] { display: block; width: 190px; max-width: 60%; height: auto; margin: 0 auto; border-radius: 0; filter: drop-shadow(0 6px 14px rgba(0,0,0,.18)); }
+@media (min-width: 1000px) { #sinurestore-za-art-root .figure img[src*="sinurestore-za/adv_020."] { width: 210px; } }
+
 body > .main_wrapper_main:has(> main:empty){ height:0 !important; min-height:0 !important; overflow:hidden !important; }
 body > .main_wrapper_main:has(> main:empty) > main{ min-height:0 !important; height:0 !important; }
 body > .main_wrapper_main:empty{ height:0 !important; min-height:0 !important; }
