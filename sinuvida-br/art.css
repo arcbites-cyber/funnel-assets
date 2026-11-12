@@ -924,3 +924,6 @@
 
 #sinuvida-br-art-root .figure img[src*="sinuvida-br/020."] { display: block; width: 190px; max-width: 60%; height: auto; margin: 0 auto; border-radius: 0; filter: drop-shadow(0 6px 14px rgba(0,0,0,.18)); }
 @media (min-width: 1000px) { #sinuvida-br-art-root .figure img[src*="sinuvida-br/020."] { width: 210px; } }
+
+
+#sinuvida-br-art-root { --paper: #fff; background: #fff; }
