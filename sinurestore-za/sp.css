@@ -1721,3 +1721,7 @@
 
 #sinurestore-za-sp-root .hero__main > img { outline: 2px solid #E2E7EE; outline-offset: -2px; }
 @media (min-width: 1000px) { #sinurestore-za-sp-root .announce__text strong, #sinurestore-za-sp-root .announce__timer b { font-size: 18px; } }
+
+body > .main_wrapper_main:has(> main:empty){ height:0 !important; min-height:0 !important; overflow:hidden !important; }
+body > .main_wrapper_main:has(> main:empty) > main{ min-height:0 !important; height:0 !important; }
+body > .main_wrapper_main:empty{ height:0 !important; min-height:0 !important; }

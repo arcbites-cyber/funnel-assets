@@ -966,3 +966,7 @@
 
 
 #sinurestore-za-art-root .hcr-logo { font-size: 26px; line-height: 1.15; }   
+
+body > .main_wrapper_main:has(> main:empty){ height:0 !important; min-height:0 !important; overflow:hidden !important; }
+body > .main_wrapper_main:has(> main:empty) > main{ min-height:0 !important; height:0 !important; }
+body > .main_wrapper_main:empty{ height:0 !important; min-height:0 !important; }
