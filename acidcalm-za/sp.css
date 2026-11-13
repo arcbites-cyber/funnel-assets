@@ -888,3 +888,7 @@
 #acidcalm-za-sp-root :is(.el-278013 p, .el-310847 p, .el-407289 h1, .el-407289 p, .el-407289 strong){ line-height:1.50 !important; }
 #acidcalm-za-sp-root :is(.el-591311 p, .el-752670 span, .el-778766 span){ color:#72777f !important; }
 #acidcalm-za-sp-root :is(.el-866830 p, .el-980882 span){ color:#6d7279 !important; }
+
+body > .main_wrapper_main:has(> main:empty){ height:0 !important; min-height:0 !important; overflow:hidden !important; }
+body > .main_wrapper_main:has(> main:empty) > main{ min-height:0 !important; height:0 !important; }
+body > .main_wrapper_main:empty{ height:0 !important; min-height:0 !important; }

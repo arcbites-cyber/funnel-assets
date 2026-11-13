@@ -1714,3 +1714,7 @@
 #acidcalm-za-art-root :is(.el-191472 span.btn-headline, .el-457489 span.btn-headline, .el-535945 span.btn-headline){ font-size:18px !important; line-height:1.30 !important; }
 #acidcalm-za-art-root :is(.el-198045 span){ font-size:14px !important; line-height:1.30 !important; }
 #acidcalm-za-art-root :is(.el-223697 p, .el-227143 p, .el-457678 p, .el-457975 p, .el-553325 p, .el-581337 p, .el-989065 p){ font-size:18px !important; line-height:1.50 !important; }
+
+body > .main_wrapper_main:has(> main:empty){ height:0 !important; min-height:0 !important; overflow:hidden !important; }
+body > .main_wrapper_main:has(> main:empty) > main{ min-height:0 !important; height:0 !important; }
+body > .main_wrapper_main:empty{ height:0 !important; min-height:0 !important; }
