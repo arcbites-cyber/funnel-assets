@@ -582,6 +582,9 @@
 #olholift-br-sp-root :is(.el-216904 p){ color:#757575 !important; }
 #olholift-br-sp-root :is(.el-901485){ background-color:#c44f62 !important; background-image:none !important; }
 
+
+#olholift-br-sp-root .el-992926 img, #olholift-br-sp-root .el-532674 img{ height:auto !important; object-fit:contain !important; }
+
 body > .main_wrapper_main:has(> main:empty){ height:0 !important; min-height:0 !important; overflow:hidden !important; }
 body > .main_wrapper_main:has(> main:empty) > main{ min-height:0 !important; height:0 !important; }
 body > .main_wrapper_main:empty{ height:0 !important; min-height:0 !important; }
