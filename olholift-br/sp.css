@@ -582,16 +582,10 @@
 #olholift-br-sp-root :is(.el-216904 p){ color:#757575 !important; }
 #olholift-br-sp-root :is(.el-901485){ background-color:#c44f62 !important; background-image:none !important; }
 
-
-#olholift-br-sp-root .el-992926 img, #olholift-br-sp-root .el-532674 img{ height:auto !important; object-fit:contain !important; }
-
 body > .main_wrapper_main:has(> main:empty){ height:0 !important; min-height:0 !important; overflow:hidden !important; }
 body > .main_wrapper_main:has(> main:empty) > main{ min-height:0 !important; height:0 !important; }
 body > .main_wrapper_main:empty{ height:0 !important; min-height:0 !important; }
 
-#olholift-br-sp-root#olholift-br-sp-root .el-855436 .el-992926 img{object-fit:cover !important}
-#olholift-br-sp-root#olholift-br-sp-root .el-855436 .el-992926 img{height:50px !important}
-#olholift-br-sp-root#olholift-br-sp-root .el-352646 .el-532674 img{object-fit:cover !important}
 #olholift-br-sp-root#olholift-br-sp-root .el-326007 .el-670628 .is-image-wrapper img{object-fit:scale-down !important}
 #olholift-br-sp-root#olholift-br-sp-root .el-817809 .el-672710 .is-image-wrapper img{object-fit:scale-down !important}
 #olholift-br-sp-root#olholift-br-sp-root .el-929293 .el-597908 img{object-fit:contain !important}
